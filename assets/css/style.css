@@ -71,17 +71,31 @@ iframe {
     margin-top: 10px;
 }
 
-#edfest {
-    width: 100%;
-    height: 100%;
-    background: url('../images/performance.jpg') no-repeat center center;
-    background-size: cover;
-}
-
 .to-do-text {
     font-family: Dongle, Helvetica, sans-serif;
-    font-size: 20px;
-    color: black;
+    font-size: 5px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#performance {
+    height: 50%;
+    width: 50%;
     float: left;
-    background-color: blanchedalmond;
+}
+
+#edfest {
+    width: 100%;
+    height: 500px;
+    background: url('../images/dancing-performed.jpg') no-repeat center center;
+}
+
+#food {
+    height: max-content;
+ 
+    margin-bottom: 25%;
+    background: url('.../images/sushi.jpg') no-repeat center center;
 }
