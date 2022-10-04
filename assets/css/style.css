@@ -34,14 +34,34 @@ iframe {
 
 /* top right bottom left */
 
-.menu {
+#menu {
     float: right;
-    font-family: arial;
+    font-family: Dongle, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu li {
+    float: right;
+    font-family: Dongle, Helvetica, sans-serif;
+    margin-bottom: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#menu a {
     text-decoration: none;
-    margin: 0 0 500px 500px; 
+    color: black;
+    font-size: 30px;
 }
 
 #intro-text {
     margin: 20px 0 0 20px;
     float: left;
+    position: absolute;
+}
+
+#welcome-video {
+    margin-top: 10px;
 }
