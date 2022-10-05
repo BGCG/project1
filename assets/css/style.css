@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dongle&family=Lato:wght@300&family=Oswald&display=swap');
 
+/* remember reponsive design for 1200px, 900px and 800px screen */
+/* remember to update readme file */
+/* hover element for links */
+
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
@@ -61,6 +65,26 @@ iframe {
     float: left;
     position: absolute;
 }
+
+#social-media {
+    display: block;
+    margin: auto;
+    font-family: Dongle, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px;
+}
+
 
 #to-do {
     font-family: Dongle, Helvetica, sans-serif;
