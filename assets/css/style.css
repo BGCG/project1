@@ -3,6 +3,8 @@
 /* remember reponsive design for 1200px, 900px and 800px screen */
 /* remember to update readme file */
 /* hover element for links */
+/*remember aria-labels for all links including navigation links */
+/* remember alt labels for all images including those inputted using CSS */
 
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
@@ -66,14 +68,14 @@ iframe {
     position: absolute;
 }
 
-#social-media {
+.social-media {
     display: block;
     margin: auto;
     font-family: Dongle, Helvetica, sans-serif;
     text-align: center;
 }
 
-footer a {
+.social-media a {
     text-decoration: none;
     color: black;
     font-size: 30px;
