@@ -2,11 +2,11 @@ This is a tourist site for Edinburgh which offers information on key events, res
 
 The project is still under development. 
 
-This website is build using HTML, CSS and some Javascript from fontawesome.com 
+This website is built using HTML, CSS and some Javascript from fontawesome.com 
 
 All images used are from pexels.com which offers royality-free images. 
 
-Specific credits;
+Specific credits for images;
 index.html page / hero image - 
 todo.html page images - 
 form.html image - 
@@ -14,6 +14,13 @@ form.html image -
 Fontawesome; 
 Social media icons (every page) - 
 
+Licencing information - ....
+
+This website will be built with reponsive design in mind to effectively respond to the users choice of device.
+
+This project will be hosted using github pages. 
+
+This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma.
 
 
 
