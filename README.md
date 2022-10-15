@@ -1,3 +1,24 @@
+This is a tourist site for Edinburgh which offers information on key events, resturants and travels advice for visitors to Edinburgh.
+
+The project is still under development. 
+
+This website is build using HTML, CSS and some Javascript from fontawesome.com 
+
+All images used are from pexels.com which offers royality-free images. 
+
+Specific credits;
+index.html page / hero image - 
+todo.html page images - 
+form.html image - 
+
+Fontawesome; 
+Social media icons (every page) - 
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome BGCG,
