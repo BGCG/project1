@@ -16,6 +16,11 @@ h1 {
     font-size: 100px;
 } 
 
+.love-edinburgh {
+    text-decoration: none;
+    color: black;
+}
+
  h2 {
     font-family: Dongle, Helvetica, sans-serif;
     display: block;
@@ -27,9 +32,15 @@ h3 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
-    font-size: 50px;
+    font-size: 45px;
 } 
 
+h4 {
+    font-family:Dongle, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+} 
 /*  p {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
@@ -109,6 +120,12 @@ footer {
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+
+.social-media h3 {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
 }
 
 footer li {
@@ -345,7 +362,6 @@ label {
      }
 }
 
-
 @media screen and (max-width: 800px) {
     #food-container {
        width:80%;
@@ -401,6 +417,7 @@ label {
         font-size: 18px;
     }
 }
+
 
 
 
