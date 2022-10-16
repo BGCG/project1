@@ -12,7 +12,7 @@ I have cited the original file names of the images which I believe contains the 
 
 index.html page / hero image: pexels-pixabay-161863
 
-todo.html page background image: pexels-robert-stokoe-2736742
+todo.html page background image: pexels-wendy-wei-1714361
 
 Eat page images (from the left) - 
 Laska soup image: pexels-amanda-lim-9772442
