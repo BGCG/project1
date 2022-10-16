@@ -74,6 +74,10 @@ iframe {
     font-size: 30px;
 }
 
+#menu a:hover {
+    color: grey;
+}
+
 #intro-text {
     margin: 20px 0 0 20px;
     float: left;
@@ -137,6 +141,17 @@ footer li {
     width: 50%;
     text-align: center;
 }
+ .to-do-fringe:hover {
+    opacity: 1;
+ }
+ .to-do-film:hover {
+    opacity: 1;
+ }
+ .to-do-text3:hover {
+    opacity: 1;
+ }
+
+
 
 .to-do-film {
     font-family: Dongle, Helvetica, sans-serif;
