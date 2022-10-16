@@ -2,24 +2,20 @@
 
 /* remember reponsive design for 1200px, 900px and 800px screen */
 /* remember to update readme file - say thanks to fontawewsome, pexels (for all images individually)*/
-/* hover element for links */
 /*remember aria-labels for all links including navigation links */
 /* remember alt labels for all images including those inputted using CSS */
 /* add comments throughout explaining key bits of code */
 /*fix aria-labels for images inputed using css*/
-/* remember to make some changes to text spacing in pages between headers and paragraphs */
+/*remember to make some changes to text spacing in pages between headers and paragraphs */
+/*HTML comments?*/
 
+/* Changes to main text elements */
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
     font-size: 100px;
 } 
-
-.love-edinburgh {
-    text-decoration: none;
-    color: black;
-}
 
  h2 {
     font-family: Dongle, Helvetica, sans-serif;
@@ -50,11 +46,25 @@ h4 {
     color: black;
 } */
 
+/* Removal of text decoration of love edinburgh link back to homepage */
+.love-edinburgh {
+    text-decoration: none;
+    color: black;
+}
+
+/* repositioning of iframe element and it's associated div element on homepage */
 
 iframe {
     display: block;
     margin: auto;
 }
+
+
+#welcome-video {
+    margin-top: 10px;
+}
+
+/* Addition of hero image on homepage */ 
 
 #hero-image {
     width: 100%;
@@ -62,7 +72,7 @@ iframe {
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
-/* top right bottom left */
+/* Addition of navigation menu */
 
 #menu {
     float: right;
@@ -86,9 +96,13 @@ iframe {
     font-size: 30px;
 }
 
+/* Addition of hover effect of navigation menu */
+
 #menu a:hover {
     color: grey;
 }
+
+/* Positioning and styling of intro text (overlapping hero image */
 
 #intro-text {
     margin: 20px 0 0 20px;
@@ -100,6 +114,7 @@ iframe {
     padding: 40px;
 }
 
+/*Addition of social media in footer and styling of footer */
 .social-media {
     display: block;
     margin: auto;
@@ -134,16 +149,21 @@ footer li {
     padding: 3px;
 }
 
+/* Addition of background image on events page */
+
+#edfest {
+    width: 100%;
+    height: 1445px;
+    background: url('../images/dancing-performed.jpg') no-repeat center center;
+    background-position: center;
+    display: block;
+}
+/* Styling of div elements containing text on events page */
 
 #to-do {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 20px;
 }
-
-#welcome-video {
-    margin-top: 10px;
-}
-
 
 
 #to-do-fringe {
@@ -208,6 +228,20 @@ footer li {
     padding: 10px;
 } 
 
+
+#to-do-text > p {
+    font-family: Dongle, Helvetica, sans-serif;
+    font-size: 25px;
+   /* margin-right: 100px; */
+    margin-bottom: 100px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+} 
+
+
+/* Addition of hover effects of div elements on events page */
+
 #to-do-fringe:hover {
     opacity: 1;
  }
@@ -222,32 +256,9 @@ footer li {
     opacity: 1;
  }
 
-#to-do-text > p {
-    font-family: Dongle, Helvetica, sans-serif;
-    font-size: 25px;
-   /* margin-right: 100px; */
-    margin-bottom: 100px;
-    color: white;
-    background-color: black;
-    opacity: 0.6;
-} 
 
-#edfest {
-    width: 100%;
-    height: 1445px;
-    background: url('../images/dancing-performed.jpg') no-repeat center center;
-    background-position: center;
-    display: block;
-}
-/*
-.to-do-text2 {
-    font-family: Dongle, Helvetica, sans-serif;
-    font-size: 5px;
-    color: white;
-    background-color: black;
-    opacity: 0.6;
-}
-*/
+/* Addition of image background for form on newsletter page */
+
 #form-image {
     width: 100%;
     height: 500px;
@@ -265,6 +276,7 @@ footer li {
     padding: 10px;
 }
 
+/* Styling of inputs and associated labels on newsletter page */
 
 #form-heading
  {
@@ -279,6 +291,8 @@ label {
     width: 105px;
     text-align: left;
 }
+
+/* Styling of text of eat+drink page */
 
 #food-text {
     float: left;
@@ -299,6 +313,8 @@ label {
     padding: 40px;
 }
 
+/*Styling of div element on eat+drink page */
+
 #food-container {
     display: flex; 
     margin: auto;
@@ -306,14 +322,7 @@ label {
 
 }
 
-/* #chef-cooking-image {
-    background: url('../images/chef-cooking.jpg') no-repeat right;
-    width: 100%;
-    height: 1000px;
-    padding: 60px;
-    background-size: contain;
-    justify-content: right;
-} */
+ /*Styling of img elements on eat+drink page */
 
 #laska-img {
     float: left;
@@ -347,6 +356,18 @@ label {
     width: 60%;
 }
 
+/*Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image */
+
+#edin-travel {
+    background: url('../images/ed-travel.jpg') repeat center center;
+    width: 100%;
+    height: 1000px;
+    padding: 60px;
+    background-size: contain;
+}
+
+/* Styling of text on travel advice page and div element */
+
 #travel-text {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 35px; 
@@ -360,13 +381,7 @@ label {
     position: absolute;
 } 
 
-#edin-travel {
-    background: url('../images/ed-travel.jpg') repeat center center;
-    width: 100%;
-    height: 1000px;
-    padding: 60px;
-    background-size: contain;
-}
+/*Responsive element code below */
 
 @media screen and (max-width: 950px) {
     h1 {
