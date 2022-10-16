@@ -6,35 +6,35 @@
 /*remember aria-labels for all links including navigation links */
 /* remember alt labels for all images including those inputted using CSS */
 /* add comments throughout explaining key bits of code */
-
+/*fix aria-labels for images inputed using css*/
 
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
     font-size: 100px;
-}
+} 
 
-h2 {
-    font-family:Dongle, Helvetica, sans-serif;
+ h2 {
+    font-family: Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
     font-size: 60px;
-}
+} 
 
 h3 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
     font-size: 50px;
-}
+} 
 
-p {
+/* p {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
-    margin: auto;
+    margin: auto; 
     font-size: 35px;
-}
+} */
 
 iframe {
     display: block;
@@ -174,4 +174,17 @@ label {
     display: inline-block;
     width: 105px;
     text-align: left;
+}
+
+#food-text {
+    float: none;
+    margin: 0 50px 50px 0;
+    font-family:Dongle, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+#chef-cooking-image {
+    margin-top: 0px;
+    float: right;
+    width: 25%;
 }
