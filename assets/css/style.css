@@ -29,13 +29,15 @@ h3 {
     font-size: 50px;
 } 
 
- p {
+ /* p {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto; 
     font-size: 35px;
     position: relative;
+    color: black;
 } 
+*/
 
 
 iframe {
@@ -84,6 +86,7 @@ iframe {
     margin: auto;
     font-family: Dongle, Helvetica, sans-serif;
     text-align: center;
+    position: relative;
 }
 
 /* ok to target a rather than li ? */
@@ -131,13 +134,7 @@ footer li {
     height: 500px;
     background: url('../images/dancing-performed.jpg') no-repeat center center;
 }
-
-#food {
-    width: 100%;
-    height: 500px;
-    background-image: url('../images/neon-sushi.jpg') no-repeat center center;
-}
-
+/*
 .to-do-text2 {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 5px;
@@ -145,7 +142,7 @@ footer li {
     background-color: black;
     opacity: 0.6;
 }
-
+*/
 #form-image {
     width: 100%;
     height: 500px;
@@ -180,15 +177,19 @@ label {
 
 #food-text {
     float: none;
-    margin: 0 50px 50px 0;
+    color: black;
+    margin: 0 100px 100px 0;
     font-family:Dongle, Helvetica, sans-serif;
     font-size: 35px;
+    clear: left;
+    justify-content: left;
+    position: static;
 }
 
 #chef-cooking-image {
-    float: right;
-    width: 25%;
-    height: 50px;
-    position: absolute;
-    margin: auto;
+    background: url('../images/chef-cooking.jpg') no-repeat right;
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+    justify-content: right;
 }
