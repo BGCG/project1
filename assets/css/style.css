@@ -12,11 +12,11 @@
 /* Changes to main text elements */
 
 /* Should I keep this wildcard selector in place at the end? */
-* {
+/* * {
     margin: 0;
     padding: 0; 
     border: none;
-}
+} */
 
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ iframe {
 }
 
 /* Addition of hero image on homepage */ 
-
+/* not sure whether to put an outer id into section element for overflow */
 #hero-image {
     width: 100%;
     height: 1200px;
@@ -98,18 +98,18 @@ iframe {
 }
 
 /* Have position using alternative code  */
-/* #love-edinburgh, #menu {
+#love-edinburgh, #menu {
     line-height: 75px;
-} */
+    
+}
 
 #menu li {
     float: right;
-    margin-bottom: 100%;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 40px;
     list-style-type: none;
 }
+
 
 #menu a {
     text-decoration: none;
@@ -170,6 +170,12 @@ footer li {
 }
 
 /* Addition of background image on events page */
+#events-outer {
+    height: 1445px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #edfest {
     width: 100%;
@@ -180,18 +186,19 @@ footer li {
     display: block;
     background-size: auto 100%;
 }
+
 /* Styling of div elements containing text on events page */
 
-#to-do {
+/* #to-do {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 20px;
-}
+} */
 
 #to-do-fringe {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     color: white;
-    /* margin-right: 500px; */ 
+    margin-right: 500px; 
     margin-bottom: 100px;
     margin-right: 75%; 
     margin-left: 10%;;
