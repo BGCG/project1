@@ -291,8 +291,8 @@ footer li {
 }
 
 #form-text-container {
-    width: 50%;
-    height: 210px;
+    width: 65%;
+    height: 220px;
     background-color: #c2099d;
     color: white;
     font-family:Dongle, Helvetica, sans-serif;
@@ -318,7 +318,6 @@ footer li {
 
 .signup-button {
     margin: auto;
-    margin-left: 25%;
 }
 
 label {
