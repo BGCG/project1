@@ -37,16 +37,18 @@
 <section>
         <div id="form-image" role="img" aria-label="View of dance festival crowd with DJ hand in the air">
         <div id="form-text-container">
-    <form>
+            <!-- can perhaps target input elements with class atribute -->
+            <!-- can target form element with class -->
+    <form method="POST" action="#"> 
         <h4 id="form-heading">Sign up to our newsletter for weekly updates on events and resturant offers in Edinburgh</h4>
         <label for="fname">First name</label>
-        <input type="text" id="fname" name="fname">
+        <input type="text" id="fname" name="fname" required>
         <br>
         <label for="lname">Last name</label>
-        <input type="text" id="fname" name="lname">
+        <input type="text" id="fname" name="lname" required>
         <br>
         <label for="email">Email address</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" required>
         <br>
         <input type="submit" value="Submit">
     </form>
