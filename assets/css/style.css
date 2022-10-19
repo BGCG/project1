@@ -70,6 +70,7 @@ iframe {
     width: 100%;
     height: 1200px;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* Addition of navigation menu */
@@ -153,8 +154,9 @@ footer li {
 
 #edfest {
     width: 100%;
-    height: 1445px;
+    height: 1445px; 
     background: url('../images/theatre.jpg') no-repeat center center;
+    background-size: cover;
     background-position: center;
     display: block;
     background-size: auto 100%;
@@ -311,29 +313,15 @@ label {
 
  /*Styling of img elements on eat+drink page */
 
-#laska-img {
-    float: left;
-    height:500px;
-    width: 40%;
-}
-
 #champagne-img {
     height:500px;
-    width: 60%;
+    width: 100%;
 }
 
 #oysters-img {
     height:500px;
-    width: 80%;
+    width: 100%;
 }
-
-#cocktails-img {
-    height:100px;
-    width: 20%;
-    float:left;
-    margin-top:500px;
-}
-
 
 #social-media-eat {
     margin-top: 100px;
