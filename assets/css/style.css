@@ -318,12 +318,14 @@ footer li {
 
 .signup-button {
     margin: auto;
+    margin-left: 25%;
 }
 
 label {
     display: inline-block;
     width: 105px;
     text-align: left;
+    font-size: 25px;
 }
 
 /* Styling of text of eat+drink page */
@@ -414,9 +416,9 @@ label {
 
 @media screen and (max-width: 980px) {
     #food-container {
-        width:80%;
+        width: 80%;
         height: 50px;
-        margin:auto;
+        margin: auto;
      }
  
      #food-text {
@@ -521,7 +523,7 @@ label {
      }
  
      .signup-button {
-         margin-left: 44%;
+         margin-left: auto;
      }
      
  
@@ -596,7 +598,7 @@ label {
     }
   
     #menu > li {
-       font-size: 0.5em;
+       font-size: 0.9em;
        margin-left: 2px;
     margin-right: 5px;
     letter-spacing: 1px;
@@ -674,7 +676,7 @@ label {
     }
 
     .signup-button {
-        margin-left: 62%;
+        margin-left: auto;
     }
     
 
@@ -701,3 +703,262 @@ label {
     } 
 
 }
+
+@media screen and (max-width: 1012px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    h1 {
+        font-size: 0.55em;
+    }
+    #menu > li {
+        font-size: 0.5em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+
+     .signup-button {
+        margin-left: auto;
+    }
+    
+    #eat-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    h1 {
+        font-size: 1em;
+    }
+    #menu > li {
+        font-size: 0.9em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+
+     .signup-button {
+        margin-left: auto;
+    }
+    
+    #eat-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    h1 {
+        font-size: 0.7em;
+    }
+    #menu > li {
+        font-size: 0.6em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+
+     .signup-button {
+        margin-left: auto;
+    }
+    
+    #eat-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 0.6em;
+    }
+    #menu > li {
+        font-size: 0.4em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+
+     .signup-button {
+        margin-left: auto;
+    }
+    
+    #eat-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    h1 {
+        font-size: 0.6em;
+    } 
+
+    #menu > li {
+        font-size: 0.45em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+}
+
+
+@media screen and (max-width: 350px) {
+
+    h1 {
+        font-size: 0.4em;
+    } 
+
+
+    #food-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+     }
+ 
+     #champagne-img {
+         width: 50%;
+         height: auto;
+      }
+ 
+      #oysters-img {
+         width: 50%;
+         height: auto;
+      }
+     #food-text > p {
+         font-size: 0.9em;
+     }
+ 
+     #food-text > h4 {
+         font-size: 1.1em;
+         margin-right: 11%;
+     }
+ 
+ 
+     iframe {
+         width: 90%;
+         height: 400px;
+     }
+ 
+     #hero-image {
+         width: 90%;
+         height: 1200px;
+     }
+ 
+     #form-text-container {
+         width: 50%;
+         height: 450px;
+         font-size: 0.5em;
+         column-count: 1;
+         display: block;
+     }
+
+ 
+     #travel-text {
+         font-size: 0.31em;
+     }
+   
+     #menu > li {
+        font-size: 0.4em;
+        margin-left: 1px;
+     margin-right: 3px;
+     letter-spacing: 0.2px;
+     }
+     
+     h2 {
+         font-size: 1em;
+     }
+ 
+     h3 {
+         font-size: 0.9em;
+     }
+ 
+     #intro-text {
+         font-size: 0.8em;
+         margin: 0 auto;
+     position: relative;
+     text-align: justify;
+     }
+ 
+     #hero-image {
+         width: auto;
+     }
+     
+ 
+     #events-outer {
+         font-size: 0.5em;
+     }
+ 
+     h3 {
+         font-size: 0.8em;
+     }
+ 
+     #events-heading {
+         font-size: 0.9em;
+     }
+ 
+     .social-media h3 {
+         text-decoration: none;
+         color: black;
+         font-size: 0.7em;
+     }
+ 
+     .social-media i {
+         font-size: 1em;
+     }
+ 
+ 
+     #food-container {
+         width: auto;
+         height: auto;
+     }
+
+     #food-text > p {
+        font-size: 0.6em;
+    }
+
+    #food-text > h4 {
+        font-size: 0.7em;
+    }
+ 
+     #eat-heading {
+         font-size: 15px;
+     }
+ 
+     label {
+         display: inline-block;
+         font-size: 0.7em;
+         text-align: left;
+         clear: both;
+         column-count: 1;
+     }
+
+     #newsletter-form {
+         margin-left: 10px;
+     }
+ 
+     .signup-button {
+         margin-left: auto;
+     }
+     
+ 
+     #form-text-container {
+         font-size: 1em;
+         display: block;
+         width: 75%;
+         height: auto;
+     }
+ 
+     #form-heading > h4 {
+         font-size: 0.4em;
+     }
+ 
+ }
