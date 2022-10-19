@@ -29,6 +29,8 @@ Licencing information -
 https://www.pexels.com/license/
 https://fontawesome.com/license
 
+Credits for video on home page;
+-insert credit here!! 
 
 This website will be built with reponsive design in mind to effectively respond to the users choice of device.
 
