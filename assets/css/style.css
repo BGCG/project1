@@ -142,26 +142,25 @@ iframe {
 }
 
 /*Addition of social media in footer and styling of footer */
-.social-media {
-    display: block;
-    margin: auto;
-    font-family: Dongle, Helvetica, sans-serif;
-    text-align: center;
-    white-space: normal;
+
+footer {
+    height: 100px;
 }
 
-/* ok to target a rather than li ? */
-footer {
-    padding: 50px;
-    position: static;
-    display: inline-block;
-    height: 100px;
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    list-style-type: none;
 }
 
 .social-media i {
     text-decoration: none;
+    margin: 1%;
+    font-size: 2em;
     color: black;
-    font-size: 30px;
 }
 
 .social-media h3 {
@@ -171,9 +170,7 @@ footer {
 }
 
 footer li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 3px;
+    display: inline;
 }
 
 /* Addition of background image on events page */
@@ -357,10 +354,6 @@ label {
     padding-bottom: 20px;
 }
 
-#social-media-eat {
-    margin-top: 100px;
-}
-
 #travel-div {
     margin: auto;
     width: 60%;
@@ -369,20 +362,22 @@ label {
 /*Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image */
 #travel-outer {
     height: 1000px;
-    width: 94%;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #edin-travel {
     background: url('../images/ed-travel.jpg') repeat center center;
-    width: 94%;
     height: 1000px;
-    padding: 60px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-size: contain;
 }
 
 /* Styling of text on travel advice page and div element */
+/*might want to adjust the positiioning of travel text*/
 
 #travel-text {
     font-family: Dongle, Helvetica, sans-serif;
@@ -390,11 +385,11 @@ label {
     color: white;
     background-color: black;
     opacity: 0.8;
-    width: 50%;
+    width: 82%;
     text-align: center;
-    margin: auto;
-    padding: 50px;
-    position: absolute;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
 } 
 
 /*Responsive element code below */
