@@ -10,6 +10,14 @@
 /*HTML comments?*/
 /*Opacity of images*/
 /* Changes to main text elements */
+
+/* Should I keep this wildcard selector in place at the end? */
+* {
+    margin: 0;
+    padding: 0; 
+    border: none;
+}
+
 h1 {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
@@ -37,6 +45,12 @@ h4 {
     margin: auto;
     font-size: 30px;
 } 
+
+body {
+    font-family: Dongle, Helvetica, sans-serif;
+    font-weight: 200; 
+    color: black;
+}
 /*  p {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
@@ -47,7 +61,7 @@ h4 {
 } */
 
 /* Removal of text decoration of love edinburgh link back to homepage */
-.love-edinburgh {
+#love-edinburgh {
     text-decoration: none;
     color: black;
 }
