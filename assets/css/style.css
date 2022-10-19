@@ -360,6 +360,12 @@ label {
 }
 
 /*Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image */
+#travel-container {
+    height: 1000px;
+    width: 94%;
+    overflow: hidden;
+    position: relative;
+}
 
 #edin-travel {
     background: url('../images/ed-travel.jpg') repeat center center;
