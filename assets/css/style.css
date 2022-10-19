@@ -29,7 +29,7 @@ h1 {
     font-family: Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto;
-    font-size: 60px;
+    font-size: 150%;
 } 
 
 h3 {
@@ -64,6 +64,7 @@ body {
 #love-edinburgh {
     text-decoration: none;
     color: black;
+    font-size: 250%;
 }
 
 /* repositioning of iframe element and it's associated div element on homepage */
@@ -90,25 +91,29 @@ iframe {
 /* Addition of navigation menu */
 
 #menu {
-    float: right;
     font-family: Dongle, Helvetica, sans-serif;
     letter-spacing: 2px;
     list-style-type: none;
+    font-size: 180%;
 }
+
+/* Have position using alternative code  */
+/* #love-edinburgh, #menu {
+    line-height: 75px;
+} */
 
 #menu li {
     float: right;
-    font-family: Dongle, Helvetica, sans-serif;
     margin-bottom: 100%;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 40px;
+    list-style-type: none;
 }
 
 #menu a {
     text-decoration: none;
-    color: black;
-    font-size: 30px;
+    color: inherit;
 }
 
 /* Addition of hover effect of navigation menu */
