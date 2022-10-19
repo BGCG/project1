@@ -141,6 +141,8 @@ iframe {
     padding: 40px;
 }
 
+/* need to fix code above used margin twice */
+
 /*Addition of social media in footer and styling of footer */
 
 footer {
@@ -189,6 +191,10 @@ footer li {
     background-position: center;
     display: block;
     background-size: auto 100%;
+}
+
+#events-heading {
+    font-size: 2em;
 }
 
 /* Styling of div elements containing text on events page */
@@ -305,6 +311,15 @@ footer li {
     font-size: 30px;
 }
 
+#newsletter-form {
+    width: auto;
+    height: auto;
+}
+
+.signup-button {
+    margin: auto;
+}
+
 label {
     display: inline-block;
     width: 105px;
@@ -312,6 +327,9 @@ label {
 }
 
 /* Styling of text of eat+drink page */
+#eat-heading {
+    font-size: 45px;
+}
 
 #food-text {
     float: left;
@@ -394,35 +412,163 @@ label {
 
 /*Responsive element code below */
 
-@media screen and (max-width: 950px) {
-    h1 {
-        font-size: 35px;
-    }
+@media screen and (max-width: 980px) {
     #food-container {
         width:80%;
         height: 50px;
         margin:auto;
      }
+ 
+     #food-text {
+         font-size: 1em;
+     }
+ 
+     #menu {
+         font-size: 15px;
+     }
+ 
+ 
+     
+     iframe {
+         width: 90%;
+         height: 400px;
+     }
+ 
+     #hero-image {
+         width: 90%;
+         height: 1200px;
+     }
+ 
+     #form-text-container {
+         width: 50%;
+         height: 450px;
+         font-size: 1.85em;
+         column-count: 1;
+         display: block;
+     }
+ 
+     #food-text {
+         font-size: 20px;
+     }
+     #travel-div {
+         font-size: 50px;
+     }
+ 
+     #travel-text {
+         font-size: 0.5em;
+     }
+   
+     
+     #travel-outer {
+         overflow:scroll;
+     }
+     
+     h2 {
+         font-size: 1em;
+     }
+ 
+     h3 {
+         font-size: 0.9em;
+     }
+ 
+     #intro-text {
+         font-size: 1.5em;
+     }
+ 
+     #hero-image {
+         width: auto;
+     }
+     #menu {
+         font-size: 1.5em;
+     }
+ 
+     #events-outer {
+         font-size: 0.9em;
+     }
+ 
+     h3 {
+         font-size: 1.1em;
+     }
+ 
+     #events-heading {
+         font-size: 1.8em;
+     }
+ 
+     .social-media h3 {
+         text-decoration: none;
+         color: black;
+         font-size: 25px;
+     }
+ 
+     #food-container {
+         width: auto;
+         height: auto;
+     }
+ 
+     #eat-heading {
+         font-size: 35px;
+     }
+ 
+     label {
+         display: inline-block;
+         font-size: 1em;
+         text-align: left;
+         clear: both;
+     }
+ 
+     #newsletter-form {
+         margin-left: 50px;
+     }
+ 
+     .signup-button {
+         margin-left: 44%;
+     }
+     
+ 
+     #form-text-container {
+         font-size: 1em;
+         display: block;
+         width: 500px;
+         height: 200px;
+     }
+ 
+     #form-heading > h4 {
+         font-size: 0.62em;
+     }
+ 
 }
 
 @media screen and (max-width: 800px) {
     
+    h1 {
+        font-size: 60%;
+    }
+
     #food-container {
-       width:80%;
-       height: 50px;
+       width: auto;
+       height: auto;
        margin:auto;
     }
 
-    #food-text {
-        font-size: 1em;
+    #champagne-img {
+        width: 50%;
+        height: auto;
+     }
+
+     #oysters-img {
+        width: 50%;
+        height: auto;
+     }
+    #food-text > p {
+        font-size: 0.9em;
     }
 
-    #menu {
-        font-size: 15px;
+    #food-text > h4 {
+        font-size: 1.1em;
+        margin-right: 11%;
     }
 
 
-    
     iframe {
         width: 90%;
         height: 400px;
@@ -436,22 +582,27 @@ label {
     #form-text-container {
         width: 50%;
         height: 450px;
-        font-size: 1.85em;
-        column-count: 5;
+        font-size: 0.5em;
+        column-count: 1;
+        display: block;
     }
 
-    #food-text {
-        font-size: 20px;
-    }
     #travel-div {
         font-size: 50px;
     }
 
     #travel-text {
-        font-size: 0.5em;
+        font-size: 0.36em;
     }
   
+    #menu > li {
+       font-size: 0.5em;
+       margin-left: 2px;
+    margin-right: 5px;
+    letter-spacing: 1px;
     }
+
+
     #travel-outer {
         overflow:scroll;
     }
@@ -465,10 +616,79 @@ label {
     }
 
     #intro-text {
+        font-size: 1.2em;
+        margin: 0 auto;
+    position: relative;
+    text-align: justify;
+    }
+
+    #hero-image {
+        width: auto;
+    }
+    #menu {
+        font-size: 1.5em;
+    }
+
+    #events-outer {
+        font-size: 0.6em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    #events-heading {
+        font-size: 1.3em;
+    }
+
+    .social-media h3 {
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+    }
+
+    .social-media i {
         font-size: 1em;
     }
 
 
+    #food-container {
+        width: auto;
+        height: auto;
+        column-count: 1;
+    }
+
+    #eat-heading {
+        font-size: 35px;
+    }
+
+    label {
+        display: inline-block;
+        font-size: 1em;
+        text-align: left;
+        clear: both;
+    }
+
+    #newsletter-form {
+        margin-left: 50px;
+    }
+
+    .signup-button {
+        margin-left: 44%;
+    }
+    
+
+    #form-text-container {
+        font-size: 1em;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+
+    #form-heading > h4 {
+        font-size: 0.6em;
+    }
 
 @media screen and (max-width: 1200px) {
+
 }
