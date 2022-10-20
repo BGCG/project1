@@ -30,7 +30,7 @@ https://www.pexels.com/license/
 https://fontawesome.com/license
 
 Credits for video on home page;
--insert credit here!! 
+https://www.youtube.com/watch?v=SRNyfBRhq0A (user acccount name: Around The World 4K)
 
 This website will be built with reponsive design in mind to effectively respond to the users choice of device.
 

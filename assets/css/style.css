@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dongle&family=Lato:wght@300&family=Oswald&display=swap');
 
-/* remember reponsive design for 1200px, 900px and 800px screen */
-/* remember to update readme file - say thanks to fontawewsome, pexels (for all images individually)*/
+
 /*remember aria-labels for all links including navigation links */
 /* remember alt labels for all images including those inputted using CSS */
 /* add comments throughout explaining key bits of code */
-/*fix aria-labels for images inputed using css*/
 /*remember to make some changes to text spacing in pages between headers and paragraphs */
 /*HTML comments?*/
-/*Opacity of images*/
-/* Changes to main text elements */
+
 
 /* Should I keep this wildcard selector in place at the end? */
 /* * {
@@ -51,7 +48,8 @@ body {
     font-weight: 200; 
     color: black;
 }
-/*  p {
+
+ /* p {
     font-family:Dongle, Helvetica, sans-serif;
     display: block;
     margin: auto; 
@@ -61,6 +59,7 @@ body {
 } */
 
 /* Removal of text decoration of love edinburgh link back to homepage */
+
 #love-edinburgh {
     text-decoration: none;
     color: black;
@@ -80,7 +79,7 @@ iframe {
 }
 
 /* Addition of hero image on homepage */ 
-/* not sure whether to put an outer id into section element for overflow */
+
 #hero-outer {
     height: 1200px;
     width: 100%;
@@ -105,6 +104,7 @@ iframe {
 }
 
 /* Have position using alternative code  */
+
 #love-edinburgh, #menu {
     line-height: 75px;
     
@@ -132,7 +132,6 @@ iframe {
 /* Positioning and styling of intro text (overlapping hero image */
 
 #intro-text {
-    margin: 20px 0 0 20px;
     float: left;
     position: absolute;
     font-family:Dongle, Helvetica, sans-serif;
@@ -140,8 +139,6 @@ iframe {
     font-size: 35px;
     padding: 40px;
 }
-
-/* need to fix code above used margin twice */
 
 /*Addition of social media in footer and styling of footer */
 
@@ -176,6 +173,7 @@ footer li {
 }
 
 /* Addition of background image on events page */
+
 #events-outer {
     height: 1445px;
     width: 100%;
@@ -198,11 +196,6 @@ footer li {
 }
 
 /* Styling of div elements containing text on events page */
-
-/* #to-do {
-    font-family: Dongle, Helvetica, sans-serif;
-    font-size: 20px;
-} */
 
 #to-do-fringe {
     font-family: Dongle, Helvetica, sans-serif;
@@ -281,52 +274,6 @@ footer li {
     opacity: 1;
  }
 
-
-/* Addition of image background for form on newsletter page */
-
-#form-image {
-    width: 100%;
-    height: 500px;
-    background: url('../images/form-background.jpg') no-repeat center center;
-}
-
-#form-text-container {
-    width: 65%;
-    height: 220px;
-    background-color: #c2099d;
-    color: white;
-    font-family:Dongle, Helvetica, sans-serif;
-    font-size: 25px;
-    opacity: 0.9;
-    padding: 10px;
-}
-
-/* Styling of inputs and associated labels on newsletter page */
-
-#form-heading
- {
-    font-family:Dongle, Helvetica, sans-serif;
-    display: block;
-    margin: auto;
-    font-size: 30px;
-}
-
-#newsletter-form {
-    width: auto;
-    height: auto;
-}
-
-.signup-button {
-    margin: auto;
-}
-
-label {
-    display: inline-block;
-    width: 105px;
-    text-align: left;
-    font-size: 25px;
-}
-
 /* Styling of text of eat+drink page */
 #eat-heading {
     font-size: 45px;
@@ -396,7 +343,6 @@ label {
 }
 
 /* Styling of text on travel advice page and div element */
-/*might want to adjust the positiioning of travel text*/
 
 #travel-text {
     font-family: Dongle, Helvetica, sans-serif;
@@ -411,46 +357,141 @@ label {
     position: relative;
 } 
 
+#travel-text > h2 {
+    text-decoration: underline;
+}
+
+/* Addition of image background for form on newsletter page */
+
+#form-image {
+    width: 100%;
+    height: 500px;
+    background: url('../images/form-background.jpg') no-repeat center center;
+}
+
+#form-text-container {
+    width: 65%;
+    height: 220px;
+    background-color: #c2099d;
+    color: white;
+    font-family:Dongle, Helvetica, sans-serif;
+    font-size: 25px;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+/* Styling of inputs and associated labels on newsletter page */
+
+#form-heading
+ {
+    font-family:Dongle, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+
+#newsletter-form {
+    width: auto;
+    height: auto;
+}
+
+.signup-button {
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 105px;
+    text-align: left;
+    font-size: 25px;
+}
+
+
 /*Responsive element code below */
 
+@media screen and (max-width: 1200px) {
+
+    #form-text-container {
+        font-size: 1em;
+        display: block;
+        width: 70%;
+        height: auto;
+    } 
+
+}
+
+@media screen and (max-width: 1012px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 979px) {
+
+    #hero-image {
+    width: auto;
+    height: auto;
+} 
+
+}
+
 @media screen and (max-width: 980px) {
-    #food-container {
-        width: 80%;
-        height: 50px;
-        margin: auto;
-     }
- 
-     #food-text {
-         font-size: 1em;
-     }
+    
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    #intro-text {
+        font-size: 1.5em;
+    }
+
+    #menu {
+        font-size: 1.5em;
+    }
  
      #menu {
          font-size: 15px;
      }
  
- 
-     
      iframe {
          width: 90%;
          height: 400px;
      }
  
      #hero-image {
-         width: 90%;
+         width: 100%;
          height: 1200px;
      }
- 
-     #form-text-container {
-         width: 50%;
-         height: 450px;
-         font-size: 1.85em;
-         column-count: 1;
-         display: block;
-     }
+
+     .social-media h3 {
+        color: black;
+        font-size: 25px;
+    }
+
+     #eat-heading {
+        font-size: 35px;
+    }
  
      #food-text {
          font-size: 20px;
      }
+
+     #food-container {
+        width: auto;
+        height: auto;
+    }
+ 
+     #food-text {
+         font-size: 1em;
+         display: block;
+     }
+     
      #travel-div {
          font-size: 50px;
      }
@@ -458,58 +499,15 @@ label {
      #travel-text {
          font-size: 0.5em;
      }
-   
-     
-     #travel-outer {
-         overflow:scroll;
-     }
-     
-     h2 {
-         font-size: 1em;
-     }
- 
-     h3 {
-         font-size: 0.9em;
-     }
- 
-     #intro-text {
-         font-size: 1.5em;
-     }
- 
-     #hero-image {
-         width: auto;
-     }
-     #menu {
-         font-size: 1.5em;
-     }
  
      #events-outer {
          font-size: 0.9em;
      }
- 
-     h3 {
-         font-size: 1.1em;
-     }
- 
+
      #events-heading {
          font-size: 1.8em;
      }
- 
-     .social-media h3 {
-         text-decoration: none;
-         color: black;
-         font-size: 25px;
-     }
- 
-     #food-container {
-         width: auto;
-         height: auto;
-     }
- 
-     #eat-heading {
-         font-size: 35px;
-     }
- 
+   
      label {
          display: inline-block;
          font-size: 1em;
@@ -539,34 +537,20 @@ label {
  
 }
 
+
 @media screen and (max-width: 800px) {
     
     h1 {
         font-size: 60%;
     }
 
-    #food-container {
-       width: auto;
-       height: auto;
-       margin: auto;
+       
+    h2 {
+        font-size: 1em;
     }
 
-    #champagne-img {
-        width: 50%;
-        height: auto;
-     }
-
-     #oysters-img {
-        width: 50%;
-        height: auto;
-     }
-    #food-text > p {
+    h3 {
         font-size: 0.9em;
-    }
-
-    #food-text > h4 {
-        font-size: 1.1em;
-        margin-right: 11%;
     }
 
 
@@ -576,17 +560,37 @@ label {
     }
 
     #hero-image {
-        width: 90%;
+        width: auto;
         height: 1200px;
     }
 
-    #form-text-container {
-        width: 50%;
-        height: 450px;
-        font-size: 0.5em;
-        column-count: 1;
-        display: block;
-    }
+    #menu > li {
+        font-size: 0.9em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+ 
+     #intro-text {
+         font-size: 1.2em;
+         margin: 0 auto;
+     position: relative;
+     text-align: justify;
+     }
+ 
+     #menu {
+         font-size: 1.5em;
+     }
+ 
+    .social-media h3 {
+         text-decoration: none;
+         color: black;
+         font-size: 1em;
+     }
+ 
+     .social-media i {
+         font-size: 1em;
+     }
 
     #travel-div {
         font-size: 50px;
@@ -596,62 +600,29 @@ label {
         font-size: 0.36em;
     }
   
-    #menu > li {
-       font-size: 0.9em;
-       margin-left: 2px;
-    margin-right: 5px;
-    letter-spacing: 1px;
-    }
-
-
-    #travel-outer {
-        overflow:scroll;
-    }
-    
-    h2 {
-        font-size: 1em;
-    }
-
-    h3 {
-        font-size: 0.9em;
-    }
-
-    #intro-text {
-        font-size: 1.2em;
-        margin: 0 auto;
-    position: relative;
-    text-align: justify;
-    }
-
-    #hero-image {
-        width: auto;
-    }
-    #menu {
-        font-size: 1.5em;
-    }
-
     #events-outer {
         font-size: 0.6em;
-    }
-
-    h3 {
-        font-size: 1.1em;
     }
 
     #events-heading {
         font-size: 1.3em;
     }
 
-    .social-media h3 {
-        text-decoration: none;
-        color: black;
-        font-size: 1em;
-    }
-
-    .social-media i {
-        font-size: 1em;
-    }
-
+    #food-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+     }
+ 
+     #champagne-img {
+         width: 50%;
+         height: auto;
+      }
+ 
+      #oysters-img {
+         width: 50%;
+         height: auto;
+      }
 
     #food-container {
         width: auto;
@@ -661,6 +632,24 @@ label {
 
     #eat-heading {
         font-size: 35px;
+    }
+
+    #food-text > p {
+        font-size: 0.9em;
+    }
+
+    #food-text > h4 {
+        font-size: 1.1em;
+        margin-right: 11%;
+    }
+
+    
+    #form-text-container {
+        width: 50%;
+        height: 450px;
+        font-size: 0.5em;
+        column-count: 1;
+        display: block;
     }
 
     label {
@@ -692,24 +681,7 @@ label {
 
 }
 
-@media screen and (max-width: 1200px) {
 
-    #form-text-container {
-        font-size: 1em;
-        display: block;
-        width: 70%;
-        height: auto;
-    } 
-
-}
-
-@media screen and (max-width: 1012px) {
-
-    h1 {
-        font-size: 2em;
-    }
-
-}
 
 @media screen and (max-width: 450px) {
 
@@ -753,26 +725,6 @@ label {
     }
 }
 
-@media screen and (max-width: 450px) {
-
-    h1 {
-        font-size: 0.7em;
-    }
-    #menu > li {
-        font-size: 0.6em;
-        margin-left: 2px;
-     margin-right: 5px;
-     letter-spacing: 1px;
-     }
-
-     .signup-button {
-        margin-left: auto;
-    }
-    
-    #eat-heading {
-        font-size: 1.5em;
-    }
-}
 
 @media screen and (max-width: 400px) {
 
@@ -795,6 +747,28 @@ label {
     }
 }
 
+@media screen and (max-width: 450px) {
+
+    h1 {
+        font-size: 0.7em;
+    }
+    #menu > li {
+        font-size: 0.6em;
+        margin-left: 2px;
+     margin-right: 5px;
+     letter-spacing: 1px;
+     }
+
+     .signup-button {
+        margin-left: auto;
+    }
+    
+    #eat-heading {
+        font-size: 1.5em;
+    }
+}
+
+
 @media screen and (max-width: 550px) {
 
     h1 {
@@ -815,32 +789,6 @@ label {
     h1 {
         font-size: 0.4em;
     } 
-
-
-    #food-container {
-        width: auto;
-        height: auto;
-        margin: auto;
-     }
- 
-     #champagne-img {
-         width: 50%;
-         height: auto;
-      }
- 
-      #oysters-img {
-         width: 50%;
-         height: auto;
-      }
-     #food-text > p {
-         font-size: 0.9em;
-     }
- 
-     #food-text > h4 {
-         font-size: 1.1em;
-         margin-right: 11%;
-     }
- 
  
      iframe {
          width: 90%;
@@ -851,19 +799,6 @@ label {
          width: 90%;
          height: 1200px;
      }
- 
-     #form-text-container {
-         width: 50%;
-         height: 450px;
-         font-size: 0.5em;
-         column-count: 1;
-         display: block;
-     }
-
- 
-     #travel-text {
-         font-size: 0.31em;
-     }
    
      #menu > li {
         font-size: 0.4em;
@@ -871,6 +806,7 @@ label {
      margin-right: 3px;
      letter-spacing: 0.2px;
      }
+
      
      h2 {
          font-size: 1em;
@@ -890,19 +826,6 @@ label {
      #hero-image {
          width: auto;
      }
-     
- 
-     #events-outer {
-         font-size: 0.5em;
-     }
- 
-     h3 {
-         font-size: 0.8em;
-     }
- 
-     #events-heading {
-         font-size: 0.9em;
-     }
  
      .social-media h3 {
          text-decoration: none;
@@ -912,6 +835,39 @@ label {
  
      .social-media i {
          font-size: 1em;
+     }
+
+     #events-outer {
+        font-size: 0.5em;
+    }
+
+    #events-heading {
+        font-size: 0.9em;
+    }
+
+     #food-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+     }
+ 
+     #champagne-img {
+         width: 50%;
+         height: auto;
+      }
+ 
+      #oysters-img {
+         width: 50%;
+         height: auto;
+      }
+
+     #food-text > p {
+         font-size: 0.9em;
+     }
+ 
+     #food-text > h4 {
+         font-size: 1.1em;
+         margin-right: 11%;
      }
  
  
@@ -931,6 +887,10 @@ label {
      #eat-heading {
          font-size: 15px;
      }
+
+    #travel-text {
+        font-size: 0.31em;
+    }
  
      label {
          display: inline-block;
