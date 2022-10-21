@@ -38,6 +38,19 @@ This project will be hosted using github pages.
 
 This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma.
 
-The structure of this website is a home page containing a welcome to Edinburgh video from youtube, an event page describing key events going on in Edinburgh, an eat+drink page offer information on some of the best Edinburgh eats, a travel advice page which offers general advice on how to get to and around Edinburgh and a fictional newsletter page where those who wish to recieve regular events and resturant offers can do so. Social media links are provided at the bottom of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh, as well as adding a community connection to other tourists and locals in Edinburgh. 
-
+The structure of this website is a home page with reasons to visit Edinburgh.
+![Screenshot-of-homepage](assets/images/home.png)
+ This is follow by a welcome video from youtube.
+ ![Screenshot-of-welcome-video](assets/images/video.png)
+ On the next page describes key events going on in Edinburgh.
+ ![Screenshot-of-events](assets/images/events.png)
+The next page is an eat+drink page offering information on some of the best Edinburgh eats.
+![Screenshot-of-eat-drink](assets/images/eat-drink.png)
+This is followed by a travel advice page which offers general advice on how to get to and around Edinburgh and a fictional newsletter page where those who wish to recieve regular events and resturant offers can do so. 
+![Screenshot-of-travel-adice](assets/images/travel-advice.png)
+Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh, as well as adding a community connection to other tourists and locals in Edinburgh. 
+![Screenshot-of-social-media](assets/images/social-media.png)
 Each page contains a navigation menu in a intuitive place (top left hand corner of the page) and also the user can click on the "Love Edinburgh" icon on the top-left of each page to return to the home page. 
+![Screenshot-of-navigation](assets/images/navigation.png)
+
+Thank you to my mentor :)
