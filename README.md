@@ -96,6 +96,12 @@ This project will be hosted using github pages.
 HTML
 CSS
 
+Programs, libraries and frameworks used 
+
+GitHub 
+Google fonts
+fontawesome
+
 <u>Credits</u>
 
 Content - 

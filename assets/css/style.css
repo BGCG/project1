@@ -63,6 +63,8 @@ iframe {
     position: relative;
 }
 
+/* image from pexels.com - https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/ */
+
 #hero-image {
     width: 100%;
     height: 1200px;
@@ -155,6 +157,8 @@ footer li {
     overflow: hidden;
     position: relative;
 }
+
+/* image from pexels.com - https://www.pexels.com/photo/silhouette-photography-of-people-on-theater-1714361/ */
 
 #edfest {
     width: 100%;
@@ -307,13 +311,17 @@ footer li {
     width: 60%;
 }
 
-/*Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image */
+/* Addition of travel outer element */
+
 #travel-outer {
     height: 1000px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
+/* Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image. 
+/* image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
 
 #edin-travel {
     background: url('../images/ed-travel.jpg') repeat center center;
