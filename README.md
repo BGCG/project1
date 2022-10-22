@@ -32,11 +32,11 @@ The website html code includes aria-labels for social media links and also alt l
 
 Color scheme 
 
-The site has a dark and amber color theme to respresent the often foggy weather of Edinburgh in Winter or the golden autum season in Edinburgh. As Edinburgh host a lot of events, dark tones are also used to respresent the atmosphere of the theatre and music conserts. 
+The site has a dark and amber color theme to represent the often foggy weather of Edinburgh in Winter or the golden Autum season in Edinburgh. As Edinburgh host a lot of events, dark tones are also used to respresent the atmosphere of the theatre and music conserts. 
 
 Imagery 
 
-The imagery used was to reflect the beatiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the edinburgh festival (events page) and music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
+The imagery used was to reflect the beatiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the Edinburgh festival (events page) and music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
 
 Typography
 
@@ -44,7 +44,7 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 <u>Communication</u>
  
-The website is presented with 
+The website is presented with bold soft text for the headers to distinguish from paragraph elements. Usage of contrasting white text against black bacground or dark text against white or gray background to provide optimal constract for readability.  
 
 <u>Current user goals</u>
 
@@ -53,7 +53,7 @@ To see updates on events and resturants in Edinburgh.
 <u>New user goals</u>
 
 To navigate through the site with ease.
-To gain events, resturant and travel advice about Edibnurgh.
+To gain events, resturant and travel advice about Edinburgh.
 To be able to sign up to a newsletter if they wish to recieve live updates on events and resturant offers.
 
 <u>Features</u>
@@ -80,6 +80,8 @@ Validators
 The W3C CSS validation service was used and no errors were found.
 
 The W3C html validation service was used and no errors were found.
+
+Lighthouse report
 
 Bugs
 
