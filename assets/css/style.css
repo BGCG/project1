@@ -81,7 +81,10 @@ iframe {
 
 /* Have position using alternative code  */
 
-#love-edinburgh,
+#love-edinburgh {
+
+}
+
 #menu {
     line-height: 75px;
 
@@ -257,6 +260,7 @@ footer li {
 }
 
 /* Styling of text of eat+drink page */
+
 #eat-heading {
     font-size: 3.5em;
     text-align: center;
@@ -345,18 +349,19 @@ footer li {
     font-size: 1.8em;
 }
 
-/* Addition of image background for form on newsletter page */
+/* Addition of image background for form on newsletter page 
+Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-1540372/ */
 
 #form-image {
     width: 100%;
-    height: 500px;
-    background: url('../images/form-background.jpg') no-repeat center center;
+    height: 800px;
+    background: url('../images/newsletter-signup.jpg') no-repeat center center;
 }
 
 #form-text-container {
     width: 65%;
-    height: 220px;
-    background-color: #c2099d;
+    height: 500px;
+    background-color: rgb(4, 0, 0);
     color: white;
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 25px;
