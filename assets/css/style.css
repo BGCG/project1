@@ -81,13 +81,8 @@ iframe {
 
 /* Have position using alternative code  */
 
-#love-edinburgh {
-
-}
-
-#menu {
+#love-edinburgh, #menu {
     line-height: 75px;
-
 }
 
 #menu li {
