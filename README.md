@@ -1,33 +1,50 @@
+# Love Edinburgh #
+
 Love Edinburgh is a tourist site for Edinburgh which offers information on key events, resturants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of resutrant and events choices. Love Edinburgh provides the fundanmental key events and best (within budget) resturants to visit in Edinburgh. 
 
 This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma. The project is still under development. 
 
-Site can be found here (!insert link to git hub pages here!)
+Site can be found [here](https://bgcg.github.io/project1/).
 
-**Table of contents**
+## Table of Contents ##
 
-**UX**
+## UX ##
 <hr>
 
-*Site purpose*
+### Site purpose ###
 
 To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to recieve live updates of Edinburgh events, resturant offers and travel advice. 
 
-*Audience*
+### Audience ###
 
 The site is directed to those that would like, are about to or are new to Edinburgh and unsure of what is the key events/resturants to visit and how to travel around Edinburgh. 
 
 The website has a site logo at the top left hand side which is clickable to take you back to the homepage if you travel to another page. It has a navigation bar on the right, where the color of the links will change from black to grey. 
 
-*Responsive design*
+### Responsive design ###
 
 This website is built with reponsive design in mind to effectively respond to the users choice of device such as smartphone, tablet, laptop and larger destop screen sizes using conditional media queries. The website is targeted to a number of device sizes such as iPhone SE, iPad mini and galaxy fold in addition to laptop and destop viewing. 
 
-*Accessibility*
+### Accessibility ###
 
 The website html code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
 
-**Design**
+### Communication ###
+ 
+The website is presented with bold soft text for the headers to distinguish from paragraph elements. Usage of contrasting white text against black bacground or dark text against white or gray background to provide optimal constrast for readability.  
+
+### Current user goals ###
+
+To see updates on events and resturants in Edinburgh.
+
+### New user goals ###
+
+To navigate through the site with ease.
+To gain events, resturant and travel advice about Edinburgh.
+To be able to sign up to a newsletter if they wish to recieve live updates on events and resturant offers.
+
+## Design ##
+<hr>
 
 *Color scheme* 
 
@@ -41,21 +58,8 @@ The imagery used was to reflect the beautiful scenery scene from the Edinbugh sk
 
 Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. 
 
-**Communication**
- 
-The website is presented with bold soft text for the headers to distinguish from paragraph elements. Usage of contrasting white text against black bacground or dark text against white or gray background to provide optimal constrast for readability.  
-
-**Current user goals**
-
-To see updates on events and resturants in Edinburgh.
-
-**New user goals**
-
-To navigate through the site with ease.
-To gain events, resturant and travel advice about Edinburgh.
-To be able to sign up to a newsletter if they wish to recieve live updates on events and resturant offers.
-
-**Features**
+## Features ##
+<hr>
 
 The structure of this website is a home page with reasons to visit Edinburgh.
 ![Screenshot-of-homepage](assets/images/home.png)
@@ -72,7 +76,8 @@ Social media links are provided at the footer of each page for a fictional socia
 Each page contains a navigation menu in a intuitive place (top left hand corner of the page) and also the user can click on the "Love Edinburgh" icon on the top-left of each page to return to the home page. 
 ![Screenshot-of-navigation](assets/images/navigation.png)
 
-**Testing**
+## Testing ##
+<hr>
 
 *Validators* 
 
@@ -86,11 +91,13 @@ Lighthouse report output showed an excellent accessibility score.
 
 All bugs detected have been fixed.
 
-**Deployment**
+## Deployment ##
+<hr>
 
 This project will be hosted using github pages. 
 
-**Technologies used**
+## Technologies used ##
+<hr>
 
 *Languages*
 
@@ -105,7 +112,8 @@ Google fonts
 fontawesome
 Am I responsive? 
 
-**Credits**
+## Credits ##
+<hr>
 
 *Content* 
 
