@@ -111,7 +111,7 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 This project will be hosted using github pages by executing the following steps;
 
-* Go to my settings on my github 'project1' repositry
+* Go to my settings on my github 'project1' repository
 * Click on pages
 * Set branch to 'main'
 
@@ -143,6 +143,8 @@ I found the 'height: auto;' and 'background: contain;' useful.
 This W3 school page was helpful in reminding me of all the display parameters I can use and there meaning - https://www.w3schools.com/cssref/pr_class_display.asp
 
 I had some difficulties aligning the labels in the form element to the inputs - I found the reply from Byron on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element - https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html 
+
+Advice for putting aira-label in div elements was found here - https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible
 
 Love running project - 
 

@@ -42,6 +42,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 250%;
+    line-height: 78px;
 }
 
 /* Addition of navigation menu */
@@ -51,25 +52,23 @@ body {
     letter-spacing: 2px;
     list-style-type: none;
     font-size: 180%;
+    float: right;
 }
 
-/* Have position using alternative code  */
-/* !!!! */
-#love-edinburgh, #menu {
-    line-height: 75px;
+#menu ul {
+    line-height: 78px;
 }
 
 #menu li {
-    float: right;
     margin-left: 10px;
     margin-right: 10px;
     list-style-type: none;
+    float: left;
 }
-
-
+    
 #menu a {
     text-decoration: none;
-    color: black;
+    color: black; 
 }
 
 /* Addition of hover effect of navigation menu */
@@ -173,7 +172,7 @@ footer li {
 
 /* Styling of div elements containing text on events page */
 
-#to-do-fringe {
+#events-fringe {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     color: white;
@@ -190,7 +189,7 @@ footer li {
 
 
 
-#to-do-film {
+#events-film {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     margin-bottom: 100px;
@@ -205,7 +204,7 @@ footer li {
     text-align: center;
 }
 
-#to-do-book {
+#events-book {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     margin-right: 75%;
@@ -219,7 +218,7 @@ footer li {
     text-align: center;
 }
 
-#to-do-music {
+#events-music {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     margin-bottom: 100px;
@@ -239,19 +238,19 @@ footer li {
 Code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp*/
 
 
-#to-do-fringe:hover {
+#events-fringe:hover {
     opacity: 1;
 }
 
-#to-do-film:hover {
+#events-film:hover {
     opacity: 1;
 }
 
-#to-do-book:hover {
+#events-book:hover {
     opacity: 1;
 }
 
-#to-do-music:hover {
+#events-music:hover {
     opacity: 1;
 }
 
@@ -454,7 +453,11 @@ label {
 
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
 
     h2 {
         font-size: 1em;
@@ -465,15 +468,11 @@ label {
     }
 
     #intro-text {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     #menu {
-        font-size: 1.5em;
-    }
-
-    #menu {
-        font-size: 15px;
+        font-size: 2em;
     }
 
     iframe {
@@ -719,8 +718,14 @@ label {
 }
 
 @media screen and (max-width: 680px) {
+
     h1 {
         font-size: 1em;
+    }
+
+    #menu {
+        display: -ms-inline-grid;
+        font-size: 2em;
     }
 }
 
@@ -763,13 +768,20 @@ label {
 
     h1 {
         font-size: 2em;
+        display: -ms-inline-grid;
+        text-align: center;
     }
 
     #menu>li {
-        font-size: 0.9em;
+        font-size: 1.5em;
         margin-left: 2px;
         margin-right: 5px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        display: -ms-inline-grid;
+    }
+
+    #menu {
+        text-align: center;
     }
 
     .signup-button {
@@ -779,20 +791,26 @@ label {
     #eat-heading {
         font-size: 1.5em;
     }
+
+    #intro-text {
+        font-size: 1.6em;
+    }
 }
 
 
 @media screen and (max-width: 450px) {
 
     h1 {
-        font-size: 0.6em;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        display: -ms-inline-grid;
     }
 
     #menu>li {
-        font-size: 0.4em;
-        margin-left: 2px;
-        margin-right: 5px;
-        letter-spacing: 1px;
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 2em;
+        display: -ms-inline-grid;
     }
 
     .signup-button {
@@ -807,7 +825,9 @@ label {
 @media screen and (max-width: 350px) {
 
     h1 {
-        font-size: 0.4em;
+        font-size: 1.5em;
+        display: inline-block;
+        text-align: center;
     }
 
     iframe {
@@ -821,11 +841,12 @@ label {
     }
 
     #menu>li {
-        font-size: 0.4em;
+        font-size: 1.3em;
         margin-left: 1px;
         margin-right: 3px;
         letter-spacing: 0.2px;
-    }
+        display: -ms-inline-grid;
+    }   
 
     h2 {
         font-size: 1em;
