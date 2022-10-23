@@ -7,10 +7,11 @@ Site can be found here (!insert link to git hub pages here!)
 **Table of contents**
 
 **UX**
+<hr>
 
 *Site purpose*
 
-To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh and also recieve live updates of Edinburgh events, resturant offers and travel advice. 
+To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to recieve live updates of Edinburgh events, resturant offers and travel advice. 
 
 *Audience*
 
