@@ -26,7 +26,7 @@ This website is built with reponsive design in mind to effectively respond to th
 
 <u>Accessibility</u>
 
-The website html code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elemetns they are associated with by id selectors. 
+The website html code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
 
 <u>Design</u>
 
@@ -36,7 +36,7 @@ The site has a dark and amber color theme to represent the often foggy weather o
 
 Imagery 
 
-The imagery used was to reflect the beatiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the Edinburgh festival (events page) and music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
+The imagery used was to reflect the beautiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the Edinburgh festival (events page) and music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
 
 Typography
 
@@ -81,7 +81,7 @@ The W3C CSS validation service was used and no errors were found.
 
 The W3C html validation service was used and no errors were found.
 
-Lighthouse report
+Lighthouse report output showed an excellent accessibility score. 
 
 Bugs
 
@@ -98,13 +98,25 @@ CSS
 
 Programs, libraries and frameworks used 
 
-GitHub 
+Gitpod
+GitHub
 Google fonts
 fontawesome
+Am I responsive? 
 
 <u>Credits</u>
 
-Content - 
+Content 
+
+Love running project
+
+Opacity hover effects of div elements on events page was taken from inpiration from the w3 schools page - 
+https://www.w3schools.com/css/css_image_transparency.asp
+
+Fixing image resizing and destortion in responsive design - I found this stack overflow reply useful to remind me how to resize images so they will not be distored on smaller or larger screen sizes or simply positioned correctly in normal screen sizes - https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted
+I found the 'height: auto' and 'background:contain' useful. 
+
+This W3 school page was helpful in reminding me of all the display parameters I can use and there meaning - https://www.w3schools.com/cssref/pr_class_display.asp
 
 Media
 

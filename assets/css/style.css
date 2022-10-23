@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dongle&family=Lato:wght@300&family=Oswald&display=swap');
 
+/* heading and body styling */
+
 h1 {
     font-family: Dongle, Helvetica, sans-serif;
     display: block;
@@ -42,36 +44,6 @@ body {
     font-size: 250%;
 }
 
-/* repositioning of iframe element and it's associated div element on homepage */
-
-iframe {
-    display: block;
-    margin: auto;
-}
-
-
-#welcome-video {
-    margin-top: 10px;
-}
-
-/* Addition of hero image on homepage */
-
-#hero-outer {
-    height: 1200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-/* image from pexels.com - https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/ */
-
-#hero-image {
-    width: 100%;
-    height: 1200px;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
-}
-
 /* Addition of navigation menu */
 
 #menu {
@@ -82,7 +54,7 @@ iframe {
 }
 
 /* Have position using alternative code  */
-
+/* !!!! */
 #love-edinburgh, #menu {
     line-height: 75px;
 }
@@ -97,13 +69,30 @@ iframe {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 /* Addition of hover effect of navigation menu */
 
 #menu a:hover {
     color: grey;
+}
+
+/* Addition of hero image on homepage */
+
+#hero-outer {
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+/* image from pexels.com - https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/ */
+
+#hero-image {
+    width: 100%;
+    height: 1200px;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* Positioning and styling of intro text (overlapping hero image */
@@ -117,15 +106,23 @@ iframe {
     padding: 40px;
 }
 
-/*Addition of social media in footer and styling of footer */
+/* repositioning of iframe element and it's associated div element on homepage */
 
-footer {
-    height: 100px;
+iframe {
+    display: block;
+    margin: auto;
 }
 
 
+#welcome-video {
+    margin-top: 10px;
+}
+
+/*Addition of social media in footer and styling of footer */
+
 .social-media {
     text-align: center;
+    height: 100px;
 }
 
 .social-media>li {
@@ -134,9 +131,9 @@ footer {
 
 .social-media i {
     text-decoration: none;
-    margin: 1%;
+    margin: 1.1%;
     font-size: 2em;
-    color: black;
+    color: #000000;
 }
 
 .social-media h3 {
@@ -154,7 +151,6 @@ footer li {
 #events-outer {
     height: 1445px;
     width: 100%;
-    overflow: hidden;
     position: relative;
 }
 
@@ -185,7 +181,6 @@ footer li {
     margin-bottom: 100px;
     margin-right: 75%;
     margin-left: 10%;
-    ;
     background-color: black;
     opacity: 0.85;
     width: 50%;
@@ -240,7 +235,9 @@ footer li {
     padding: 10px;
 }
 
-/* Addition of hover effects of div elements on events page */
+/* Addition of hover effects of div elements on events page 
+Code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp*/
+
 
 #to-do-fringe:hover {
     opacity: 1;
@@ -285,7 +282,7 @@ footer li {
 }
 
 /*Styling of div element on eat+drink page */
-
+/* !!!! */
 #food-container {
     display: flex;
     margin: auto;
@@ -514,7 +511,6 @@ label {
         margin-left: auto;
     }
 
-
     #form-text-container {
         font-size: 1em;
         display: block;
@@ -527,7 +523,6 @@ label {
     }
 
 }
-
 
 @media screen and (max-width: 800px) {
 
@@ -564,6 +559,7 @@ label {
 
     #intro-text {
         font-size: 1.2em;
+        /* !! */
         margin: 0 auto;
         position: relative;
         text-align: justify;
@@ -618,7 +614,6 @@ label {
     #food-container {
         width: auto;
         height: auto;
-        column-count: 1;
     }
 
     #eat-heading {
@@ -671,8 +666,6 @@ label {
     }
 
 }
-
-
 
 @media screen and (max-width: 450px) {
 
@@ -801,7 +794,6 @@ label {
         margin-right: 3px;
         letter-spacing: 0.2px;
     }
-
 
     h2 {
         font-size: 1em;
