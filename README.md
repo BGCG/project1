@@ -9,7 +9,6 @@ Site can be found [here](https://bgcg.github.io/project1/).
 ## **Table of Contents** ##
 
 ## **UX** ##
-<hr>
 
 ### **Site purpose** ###
 
@@ -42,7 +41,6 @@ The website is presented with bold soft text for the headers to distinguish from
 * To be able to sign up to a newsletter if they wish to recieve live updates on events and resturant offers.
 
 ## **Design** ##
-<hr>
 
 ### **Color scheme** ###
 
@@ -57,7 +55,6 @@ The imagery used was to reflect the beautiful scenery scene from the Edinbugh sk
 Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. 
 
 ## Features ##
-<hr>
 
 **Homepage:** 
 
@@ -96,8 +93,7 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ![Screenshot-of-navigation](assets/images/navigation.png)
 
-## Testing ##
-<hr>
+## Testing ##
 
 ### **Validators** ###
 
@@ -112,12 +108,14 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 * All bugs detected have been fixed.
 
 ## Deployment ##
-<hr>
 
-* This project will be hosted using github pages. 
+This project will be hosted using github pages by executing the following steps;
+
+* Go to my settings on my github 'project1' repositry
+* Click on pages
+* Set branch to 'main'
 
 ## Technologies used ##
-<hr>
 
 ### **Languages** ###
 
@@ -126,24 +124,25 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ### **Programs, libraries and frameworks used** ###
 
-* GitHub
-* Gitpod
-* Google fonts 
-* fontawesome
-* Am I responsive? 
+* GitHub - I used internent hosting site github.com to host this website 
+* Gitpod - I used the gitpod developer platform to code my website and then was pushed to github 
+* Google fonts - I used the Dongle font throughout this website from google fonts
+* fontawesome - the facebook, instagram and twiiter icons are from fontawesome.com
+* Am I responsive? - to check that website looks good across different devices
 
 ## Credits ##
-<hr>
 
 ### **Content** ###
 
-Opacity hover effects of div elements on events page was taken from inpiration from the w3 schools page - 
+Opacity hover effects of div elements on events page was taken from inspiration from the w3 schools page - 
 https://www.w3schools.com/css/css_image_transparency.asp
 
-Fixing image resizing and destortion in responsive design - I found this stack overflow reply useful to remind me how to resize images so they will not be distored on smaller or larger screen sizes or simply positioned correctly in normal screen sizes - https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted
+Fixing image resizing and destortion in responsive design - I found this stack overflow reply useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes - https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted
 I found the 'height: auto;' and 'background: contain;' useful. 
 
 This W3 school page was helpful in reminding me of all the display parameters I can use and there meaning - https://www.w3schools.com/cssref/pr_class_display.asp
+
+I had some difficulties aligning the labels in the form element to the inputs - I found the reply from Byron on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element - https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html 
 
 Love running project - 
 
@@ -164,17 +163,18 @@ All images used are from pexels.com which offers royality-free images. Thank you
 
 * newsletter.html bakground image: pexels-wendy-wei-1540372
 
+Licencing information for pexels.com - https://www.pexels.com/license/
+
 #### Social media icons ####
 
 Social media icons are from fontawesome.com (thank you!)
 
-Licencing information - 
-https://www.pexels.com/license/
-https://fontawesome.com/license
+Licencing information for fontawesome.com - https://fontawesome.com/license
 
 #### Video ####
 
-Credits for video on home page;
-https://www.youtube.com/watch?v=SRNyfBRhq0A (user acccount name: Around The World 4K)
+Credits for video on home page; https://www.youtube.com/watch?v=SRNyfBRhq0A (user acccount name: Around The World 4K)
 
-Thank you to my mentor :)
+## People ##
+
+Thank you to my mentor for providing valuable feedback.
