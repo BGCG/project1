@@ -134,6 +134,8 @@ This project will be hosted using github pages by executing the following steps;
 
 ### **Content** ###
 
+Due to my beginner experience in web development, aspects of this project were loosely based on code institute love runnning project - in particular the header and footer elements. Precisely I have used the wildcard margin and padding code in order to improve control of position of content. 
+
 Opacity hover effects of div elements on events page was taken from inspiration from the w3 schools page - 
 https://www.w3schools.com/css/css_image_transparency.asp
 
@@ -145,6 +147,10 @@ This W3 school page was helpful in reminding me of all the display parameters I 
 I had some difficulties aligning the labels in the form element to the inputs - I found the reply from Byron on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element - https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html 
 
 Advice for putting aira-label in div elements was found here - https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible
+
+I had an issue with alignment of header and nav bar when I placed the logo above the nav bar in the html code. I resolved this issue from inspiration from the following stack over flow post - https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar
+
+
 
 Love running project - 
 

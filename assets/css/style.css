@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Fredoka:wght@300;400&display=swap');
 
-/* heading and body styling */
+/* Wildcard code inspired from love running project  */
 
 * {
     margin: 0;
     padding: 0; 
     border: none;
 }
+
+/* heading and body styling */
 
 h1 {
     font-family: Dongle, Helvetica, sans-serif;
