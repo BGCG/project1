@@ -2,6 +2,12 @@
 
 /* heading and body styling */
 
+* {
+    margin: 0;
+    padding: 0; 
+    border: none;
+}
+
 h1 {
     font-family: Dongle, Helvetica, sans-serif;
     display: block;
@@ -41,15 +47,15 @@ body {
 
 /* Removal of text decoration of love edinburgh link back to homepage */
 
-#love-edinburgh {
+#logo {
     text-decoration: none;
     color: black;
     font-size: 250%;
-    line-height: 100px;
-    text-transform: capitalize;
 }
 
 /* Addition of navigation menu */
+
+
 
 #menu {
     font-family: Dongle, Helvetica, sans-serif;
@@ -58,10 +64,6 @@ body {
     font-size: 180%;
     float: right;
     text-transform: uppercase;
-}
-
-#menu ul {
-    line-height: 100px;
 }
 
 #menu li {
@@ -76,10 +78,33 @@ body {
     color: black; 
 }
 
+/* Alignment of site logo and header */
+
+#logo, #menu {
+    line-height: 100px;
+    display: flex;
+    padding: 10px;
+    height: 100px;
+}
+
 /* Addition of hover effect of navigation menu */
 
 #menu a:hover {
     color: gray;
+}
+
+#nav-logo {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+
+#menu-container {
+    float: right;
+}
+
+#logo-container {
+    float: left;
 }
 
 /* Addition of hero image on homepage */
@@ -109,6 +134,11 @@ body {
     font-size: 35px;
     padding: 50px;
 }
+
+#intro-text>h2 {
+    line-height: 40px;
+}
+
 
 /* repositioning of iframe element and it's associated div element on homepage */
 
@@ -171,8 +201,9 @@ footer li {
 }
 
 #events-heading {
-    font-size: 3.5em;
+    font-size: 50px;
     text-align: center;
+    padding: 20px;
 }
 
 /* Styling of div elements containing text on events page */
@@ -262,18 +293,18 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /* Styling of text of eat+drink page */
 
 #eat-heading {
-    font-size: 3.5em;
+    font-size:  50px;
     text-align: center;
+    display: block;
+    padding: 25px;
+    font-weight: 400;
 }
 
 #food-text {
-    float: left;
     color: black;
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 35px;
-    clear: left;
     text-align: center;
-    justify-content: center;
 }
 
 #food-text>p {
@@ -295,13 +326,13 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /*Styling of img elements on eat+drink page */
 
 #champagne-img {
-    height: 420px;
+    height: auto;
     width: 50%;
     padding-bottom: 20px;
 }
 
 #oysters-img {
-    height: 420px;
+    height: auto;
     width: 50%;
     padding-bottom: 20px;
 }
@@ -350,6 +381,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 #travel-text>h2 {
     text-decoration: underline;
     font-size: 1.8em;
+    padding: 20px;
 }
 
 /* Addition of image background for form on newsletter page 
@@ -362,8 +394,8 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
 }
 
 #form-text-container {
-    width: 65%;
-    height: 220px;
+    width: 300px;
+    height: auto;
     background-color: rgb(4, 0, 0);
     color: white;
     font-family: Dongle, Helvetica, sans-serif;
@@ -388,6 +420,7 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
 
 .signup-button {
     margin: auto;
+    width: 50px;
 }
 
 label {
@@ -465,11 +498,11 @@ label {
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     h3 {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     #intro-text {
@@ -509,7 +542,7 @@ label {
     }
 
     #food-text {
-        font-size: 1em;
+        font-size: 1.2em;
         display: block;
     }
 
@@ -559,7 +592,7 @@ label {
 
 @media screen and (max-width: 900px) {
 
-    #love-edinburgh {
+    #logo {
         font-size: 2em;
     }
 
@@ -736,7 +769,7 @@ label {
 
 @media screen and (max-width: 750px) {
 
-    #love-edinburgh {
+    #logo {
         font-size: 2em;
     }
 
