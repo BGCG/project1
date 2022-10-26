@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Fredoka:wght@300;400&display=swap');
 
-/* Wildcard code inspired from code institute love running project  */
+/* wildcard code inspired from code institute love running project  */
 
 * {
     margin: 0;
@@ -47,7 +47,7 @@ body {
     font-weight: 300;
 }
 
-/* Removal of text decoration of love edinburgh link back to homepage */
+/* removal of text decoration of love edinburgh link back to homepage */
 
 #logo {
     text-decoration: none;
@@ -55,9 +55,7 @@ body {
     font-size: 250%;
 }
 
-/* Addition of navigation menu */
-
-
+/* addition of navigation menu */
 
 #menu {
     font-family: Dongle, Helvetica, sans-serif;
@@ -80,7 +78,8 @@ body {
     color: black; 
 }
 
-/* Alignment of site logo and header */
+
+/* alignment of site logo and header */
 
 #logo, #menu {
     line-height: 100px;
@@ -89,7 +88,7 @@ body {
     height: 100px;
 }
 
-/* Addition of hover effect of navigation menu */
+/* addition of hover effect of navigation menu */
 
 #menu a:hover {
     color: gray;
@@ -97,7 +96,7 @@ body {
 
 #nav-logo {
     display: inline-block;
-    height: auto;
+    height: 100px;
     width: 100%;
 }
 
@@ -109,7 +108,7 @@ body {
     float: left;
 }
 
-/* Addition of hero image on homepage */
+/* addition of hero image on homepage */
 
 #hero-outer {
     height: 1200px;
@@ -126,7 +125,7 @@ body {
     background-size: cover;
 }
 
-/* Positioning and styling of intro text (overlapping hero image */
+/* positioning and styling of intro text (overlapping hero image */
 
 #intro-text {
     float: left;
@@ -154,7 +153,7 @@ iframe {
     margin-top: 10px;
 }
 
-/*Addition of social media in footer and styling of footer */
+/* addition of social media in footer and styling of footer */
 
 .social-media {
     text-align: center;
@@ -182,7 +181,7 @@ footer li {
     display: inline;
 }
 
-/* Addition of background image on events page */
+/* addition of background image on events page */
 
 #events-outer {
     height: 1445px;
@@ -208,15 +207,13 @@ footer li {
     padding: 20px;
 }
 
-/* Styling of div elements containing text on events page */
+/* styling of div elements containing text on events page */
 
 #events-fringe {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
     color: white;
-    margin-right: 500px;
     margin-bottom: 100px;
-    margin-right: 75%;
     margin-left: 10%;
     background-color: black;
     opacity: 0.85;
@@ -230,12 +227,10 @@ footer li {
 #events-film {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
-    margin-bottom: 100px;
     float: right;
     color: white;
     margin-bottom: 100px;
     margin-right: 10%;
-    margin-left: 75%;
     background-color: black;
     opacity: 0.85;
     width: 50%;
@@ -245,9 +240,8 @@ footer li {
 #events-book {
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 1.85em;
-    margin-right: 75%;
     margin-left: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color: white;
     background-color: black;
     opacity: 0.85;
@@ -272,9 +266,8 @@ footer li {
     padding: 10px;
 }
 
-/* Addition of hover effects of div elements on events page 
-Code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp*/
-
+/* addition of hover effects of div elements on events page */
+/* code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp */
 
 #events-fringe:hover {
     opacity: 1;
@@ -292,7 +285,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     opacity: 1;
 }
 
-/* Styling of text of eat+drink page */
+/* styling of text of eat+drink page */
 
 #eat-heading {
     font-size:  50px;
@@ -302,14 +295,14 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     font-weight: 400;
 }
 
-#food-text {
+#eat-text {
     color: black;
     font-family: Dongle, Helvetica, sans-serif;
     font-size: 35px;
     text-align: center;
 }
 
-#food-text>p {
+#eat-text>p {
     margin: 0 50px 10px 0;
     display: block;
     font-size: 32px;
@@ -317,15 +310,15 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     padding: 40px;
 }
 
-/*Styling of div element on eat+drink page */
-/* !!!! */
-#food-container {
+/* styling of div element on eat+drink page */
+
+#eat-container {
     display: flex;
     margin: auto;
     position: relative;
 }
 
-/*Styling of img elements on eat+drink page */
+/* styling of img elements on eat+drink page */
 
 #champagne-img {
     height: auto;
@@ -339,12 +332,12 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     padding-bottom: 20px;
 }
 
-#travel-div {
+#travel-container {
     margin: auto;
     width: 60%;
 }
 
-/* Addition of travel outer element */
+/* addition of travel outer element */
 
 #travel-outer {
     height: 1000px;
@@ -353,8 +346,8 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     position: relative;
 }
 
-/* Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image. 
-/* image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
+/* Addition of background image on travel adive page. Note - I deliberately wanted to repeat the image 
+ image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
 
 #edin-travel {
     background: url('../images/ed-travel.jpg') repeat center center;
@@ -365,7 +358,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     background-size: contain;
 }
 
-/* Styling of text on travel advice page and div element */
+/* styling of text on travel advice page and div element */
 
 #travel-text {
     font-family: Dongle, Helvetica, sans-serif;
@@ -420,7 +413,7 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
     height: auto;
 }
 
-.signup-button {
+#signup-button {
     margin: auto;
     width: 50px;
 }
@@ -433,7 +426,7 @@ label {
 }
 
 
-/*Responsive element code below */
+/* Responsive element code below */
 
 
 @media screen and (max-width: 2000px) {
@@ -443,16 +436,16 @@ label {
         margin: 0 auto;
     }
 
-    #food-container {
+    #eat-container {
         width: 70%;
     }
 
-    #food-text {
+    #eat-text {
         width: 100%;
         margin: 0 auto;
     }
 
-    #food-text>h3 {
+    #eat-text>h3 {
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -534,21 +527,17 @@ label {
         font-size: 35px;
     }
 
-    #food-text {
-        font-size: 20px;
-    }
-
-    #food-container {
+    #eat-container {
         width: auto;
         height: auto;
     }
 
-    #food-text {
+    #eat-text {
         font-size: 1.2em;
         display: block;
     }
 
-    #travel-div {
+    #travel-container {
         font-size: 50px;
     }
 
@@ -602,12 +591,20 @@ label {
         font-size: 1.5em;
     }
 
+    #nav-logo {
+        height: auto;
+    }
+
     #menu>li {
         padding: 2px;
     }
 
     #events-heading {
         font-size: 3em;
+    }
+    
+    #eat-text>h3 {
+        font-size: 2em;
     }
 }
 
@@ -625,7 +622,6 @@ label {
     h3 {
         font-size: 0.9em;
     }
-
 
     iframe {
         width: 90%;
@@ -646,7 +642,6 @@ label {
 
     #intro-text {
         font-size: 1.2em;
-        /* !! */
         margin: 0 auto;
         position: relative;
         text-align: justify;
@@ -666,7 +661,7 @@ label {
         font-size: 1.5em;
     }
 
-    #travel-div {
+    #travel-container {
         font-size: 50px;
     }
 
@@ -686,7 +681,7 @@ label {
         font-size: 2em;
     }
 
-    #food-container {
+    #eat-container {
         width: auto;
         height: auto;
         margin: auto;
@@ -702,7 +697,7 @@ label {
         height: auto;
     }
 
-    #food-container {
+    #eat-container {
         width: auto;
         height: auto;
     }
@@ -711,11 +706,11 @@ label {
         font-size: 2em;
     }
 
-    #food-text>p {
+    #eat-text>p {
         font-size: 1.7em;
     }
 
-    #food-text>h4 {
+    #eat-text>h4 {
         font-size: 1.9em;
         margin-right: 11%;
     }
@@ -743,7 +738,6 @@ label {
         margin-left: auto;
     }
 
-
     #form-text-container {
         font-size: 1em;
         display: block;
@@ -765,8 +759,25 @@ label {
 
     #menu {
         display: -ms-inline-grid;
-        font-size: 2em;
+        font-size: 0.8em;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    #logo-container, #menu-container {
+        height: 90px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #logo-container, #menu-container {
+        height: 70px;
+        line-height: 10px;
+    }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -824,9 +835,9 @@ label {
         margin-left: auto;
     }
 
-    #eat-heading {
+    /* #eat-heading {
         font-size: 1.5em;
-    }
+    } */
 
     #intro-text {
         font-size: 1.6em;
@@ -836,16 +847,19 @@ label {
 
 @media screen and (max-width: 450px) {
 
+    /* #nav-logo {
+        height: 150px;
+    } */
+    
     h1 {
         font-size: 1.2em;
-        line-height: 1.5em;
         display: -ms-inline-grid;
     }
 
     #menu>li {
-        font-size: 1em;
+        font-size: 0.8em;
         letter-spacing: 2px;
-        line-height: 2em;
+        line-height: 0.5em;
         display: -ms-inline-grid;
     }
 
@@ -853,9 +867,10 @@ label {
         margin-left: auto;
     }
 
-    #eat-heading {
+    /* #eat-heading {
         font-size: 1.5em;
-    }
+    } */
+
 }
 
 @media screen and (max-width: 350px) {
@@ -877,11 +892,12 @@ label {
     }
 
     #menu>li {
-        font-size: 1.3em;
+        font-size: 0.7em;
         margin-left: 1px;
-        margin-right: 3px;
-        letter-spacing: 0.2px;
+        margin-right: 3px; 
+        letter-spacing: 0.2px; 
         display: -ms-inline-grid;
+        grid-row: 2;
     }   
 
     h2 {
@@ -914,14 +930,14 @@ label {
     }
 
     #events-outer {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 
     #events-heading {
         font-size: 0.9em;
     }
 
-    #food-container {
+    #eat-container {
         width: auto;
         height: auto;
         margin: auto;
@@ -937,27 +953,22 @@ label {
         height: auto;
     }
 
-    #food-text>p {
+    #eat-text>p {
         font-size: 0.9em;
     }
 
-    #food-text>h4 {
+    #eat-text>h4 {
         font-size: 1.1em;
         margin-right: 11%;
     }
 
-
-    #food-container {
+    #eat-container {
         width: auto;
         height: auto;
     }
 
-    #food-text>p {
+    #eat-text>p {
         font-size: 0.6em;
-    }
-
-    #food-text>h4 {
-        font-size: 0.7em;
     }
 
     #eat-heading {
@@ -983,7 +994,6 @@ label {
     .signup-button {
         margin-left: auto;
     }
-
 
     #form-text-container {
         font-size: 1em;
