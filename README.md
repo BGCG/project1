@@ -134,25 +134,19 @@ This project will be hosted using github pages by executing the following steps;
 
 ### **Content** ###
 
-Due to my beginner experience in web development, aspects of this project were loosely based on code institute love runnning project - in particular the header and footer elements. Precisely I have used the wildcard margin and padding code in order to improve control of position of content. 
+Due to my beginner experience in web development, aspects of this project were loosely based on the code institute love runnning project - in particular the header and footer elements. Precisely I have used the wildcard margin and padding code, also used in the love running project, in order to improve control of position of content. 
 
-Opacity hover effects of div elements on events page was taken from inspiration from the w3 schools page - 
-https://www.w3schools.com/css/css_image_transparency.asp
+Opacity hover effects of div elements on events page was taken from inspiration from [this w3 schools page](https://www.w3schools.com/css/css_image_transparency.asp). 
 
-Fixing image resizing and destortion in responsive design - I found this stack overflow reply useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes - https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted
-I found the 'height: auto;' and 'background: contain;' useful. 
+I found the stack overflow reply wriiten by [Red Zephyr Design and Terry](https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted) useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes. I found the 'height: auto;' and 'background: contain;' useful. 
 
-This W3 school page was helpful in reminding me of all the display parameters I can use and there meaning - https://www.w3schools.com/cssref/pr_class_display.asp
+[This W3 school page](https://www.w3schools.com/cssref/pr_class_display.asp) was helpful in reminding me of all the display parameters I can use and there meaning.
 
-I had some difficulties aligning the labels in the form element to the inputs - I found the reply from Byron on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element - https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html 
+I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html ) on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
 
-Advice for putting aira-label in div elements was found here - https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible
+Advice that I used for putting aira-label in div elements was found [here](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible).
 
-I had an issue with alignment of header and nav bar when I placed the logo above the nav bar in the html code. I resolved this issue from inspiration from the following stack over flow post - https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar
-
-
-
-Love running project - 
+I had an issue with alignment of header and nav bar when I placed the logo above the nav bar in the html code. I resolved this issue from inspiration from reply from [Adam Grant](https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar) in a stack overflow post.
 
 ### **Media** ###
 
@@ -160,28 +154,28 @@ Love running project -
 
 All images used are from pexels.com which offers royality-free images. Thank you pexels.com! Specific credits for images where I have cited the original file names of the images which I believe contains the name or username of the photographer who shared the photo on pexels;
 
-* index.html page / hero image: pexels-pixabay-161863
+* index.html page / hero image: [Pixabay](https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/)
 
-* todo.html page background image: pexels-wendy-wei-1714361
+* todo.html page background image: [Wendy Wei](https://www.pexels.com/photo/silhouette-photography-of-people-on-theater-1714361/)
 
-* Girls and champagne image (eat+drink page): pexels-inga-seliverstova-3394310
-* Oysters image (eat+drink page): pexels-sl-wong-3534584
+* Girls and champagne image (eat+drink page): [Inga Seliverstova](https://www.pexels.com/photo/woman-in-silver-v-neck-long-sleeved-dress-3394310/)
+* Oysters image (eat+drink page): [sl wong](https://www.pexels.com/photo/selective-focus-photo-of-oysters-ceramic-tray-3534584/)
 
-* Travel adive page background image: pexels-danila-giancipoli-2242170
+* Travel adive page background image: [Danila Giancipoli](https://www.pexels.com/photo/three-person-crossing-streets-2242170/)
 
-* newsletter.html bakground image: pexels-wendy-wei-1540372
+* newsletter.html bakground image: [Wendy Wei](https://www.pexels.com/photo/photo-of-live-concert-1540372/)
 
-Licencing information for pexels.com - https://www.pexels.com/license/
+Licencing information for pexels.com can be found [here](https://www.pexels.com/license/).
 
 #### Social media icons ####
 
 Social media icons are from fontawesome.com (thank you!)
 
-Licencing information for fontawesome.com - https://fontawesome.com/license
+Licencing information for fontawesome.com can be found [here](https://fontawesome.com/license).
 
 #### Video ####
 
-Credits for video on home page; https://www.youtube.com/watch?v=SRNyfBRhq0A (user acccount name: Around The World 4K)
+Credits for video on home page; Video created by [Around The World 4K](https://www.youtube.com/watch?v=SRNyfBRhq0A).
 
 ## People ##
 
