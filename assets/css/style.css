@@ -769,6 +769,10 @@ label {
         height: 90px;
     }
 
+    #menu {
+        font-size: 5px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -776,6 +780,10 @@ label {
     #logo-container, #menu-container {
         height: 70px;
         line-height: 10px;
+    }
+
+    #menu {
+        font-size: 2px;
     }
 
 }
@@ -847,9 +855,9 @@ label {
 
 @media screen and (max-width: 450px) {
 
-    /* #nav-logo {
+    #nav-logo {
         height: 150px;
-    } */
+    }
     
     h1 {
         font-size: 1.2em;
@@ -863,8 +871,28 @@ label {
         display: -ms-inline-grid;
     }
 
+    #intro-text {
+        font-size: 1.4em;
+    }
+
     .signup-button {
         margin-left: auto;
+    }
+
+    #travel-text>h2 {
+        font-size: 0.9em;
+    }
+
+    #eat-text {
+        font-size: 0.9em;
+    }
+
+    #eat-text>h3 {
+        font-size: 1.8em;
+    }
+
+    #events-outer {
+        font-size: 0.7em;
     }
 
     /* #eat-heading {
@@ -930,12 +958,12 @@ label {
     }
 
     #events-outer {
-        font-size: 0.6em;
+        font-size: 0.3em;
     }
 
-    #events-heading {
+    /* #events-heading {
         font-size: 0.9em;
-    }
+    } */
 
     #eat-container {
         width: auto;
