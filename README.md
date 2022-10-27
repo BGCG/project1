@@ -95,7 +95,12 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ## Testing ##
 
+My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distored and at certain screen widths dissapeared behind other content at small screens sizes (especially 280px max screen width for galaxy fold devices). As I had 5 navigation links this proved challenging. I opted for a list format on the top right had side of the screen by removing the float:right from #menu and float: left from #menu li. I then positioned the menu container so it was in the appropriate place. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
+
+On my eat+drink page and travel page the text content became misaligned on smaller screen sizes. I wasn't certain why as I had already wrote a text-align center in the main code. 
+
 ### **Validators** ###
+
 
 * The W3C CSS validation service was used and no errors were found.
 
