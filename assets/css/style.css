@@ -595,130 +595,80 @@ label {
     #travel-text {
         font-size: 0.5em;
     }
-
-    #events-outer>p {
-        font-size: 1.8em;
+/* might want to tidy up code below */
+    #events-fringe>p, #events-film>p, #events-book>p, #events-music>p {
+    font-size: 0.9em;
     }
 
-    #events-outer>h3 {
-        font-size: 1.5em;
-    }
-
-    #events-heading {
-        font-size: 2em;
-    }
-
+    #events-fringe>h2, #events-film>h2, #events-book>h2, #events-music>h2 {
+        font-size: 1.1em;
+        }
+/* 
     #eat-container {
         width: auto;
         height: auto;
         margin: auto;
-    }
+    } */
 
-    #champagne-img {
+    /* #champagne-img {
         width: 50%;
         height: auto;
-    }
+    } */
 
-    #oysters-img {
+    /* #oysters-img {
         width: 50%;
         height: auto;
-    }
+    } */
 
-    #eat-container {
-        width: auto;
-        height: auto;
-    }
-
-    #eat-heading {
-        font-size: 2em;
+    #eat-text>h2 {
+        font-size: 1.9em;
     }
 
     #eat-text>p {
         font-size: 1.7em;
     }
 
-    #eat-text>h4 {
+    /* #eat-text>h4 {
         font-size: 1.9em;
         margin-right: 11%;
-    }
+    } */
 
 
-    #form-text-container {
-        width: 50%;
+    /* #form-text-container {
+        width: 50%; 
         height: 450px;
-        font-size: 0.5em;
-        display: block;
-    }
+        font-size: 0.7em;
+     display: block; 
+    } */
 
     label {
-        display: inline-block;
-        font-size: 1em;
-        text-align: left;
-        clear: both;
+        /* display: inline-block; */
+        font-size: 1.5em;
+        /* text-align: left; */
+        /* clear: both; */
     }
 
     #newsletter-form {
         margin-left: 20px;
     }
 
-    .signup-button {
+    /* .signup-button {
         margin-left: auto;
-    }
+    } */
 
     #form-text-container {
         font-size: 1em;
-        display: block;
+        /* display: block;  */
         width: auto;
-        height: 200px;
-    }
-
-    #form-heading>h4 {
-        font-size: 0.6em;
+        /* height: 200px; */
     }
 
 }
 
-@media screen and (max-width: 680px) {
-
-    h1 {
-        font-size: 1em;
-    }
-
-    #menu {
-        display: -ms-inline-grid;
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    #logo-container, #menu-container {
-        height: 90px;
-    }
-
-    #menu {
-        font-size: 5px;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-
-    #logo-container, #menu-container {
-        height: 70px;
-        line-height: 10px;
-    }
-
-    #menu {
-        font-size: 2px;
-    }
-
-}
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
 
     #logo {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     #menu {
@@ -728,27 +678,63 @@ label {
         letter-spacing: 1px;
     }
 
-    .signup-button {
+    /* .signup-button {
         margin-left: auto;
-    }
+    } */
 
-    #eat-heading {
-        font-size: 1.5em;
-    }
+    /* #travel-text>h2 {
+        font-size: 1.2em;
+    } */
+
+    #travel-text>p {
+        font-size: 1em;
+    } 
 
     #travel-text>h2 {
         font-size: 1.2em;
-    }
+    } 
 
-    #travel-text>p {
-        font-size: 0.8em;
-    }
-
-    #events-outer {
+     #events-outer {
         font-size:  0.9em;
-    }
+    } 
+/*    
+    #form-text-container>h2 {
+        font-size: 0.9em;
+
+    }  */
 
 }
+
+@media screen and (max-width: 680px) {
+/* revisit this code */
+   h1 {
+        font-size: 1.3em;
+        line-height: 0.5px;
+        margin: auto 100%;
+        column-count: 1;
+    }
+
+    #menu {
+        display: inline-block;
+        height: 100px;
+        width: 125%;  
+        font-size: 1.7em;
+        padding: 0;
+        column-count: 1;
+        line-height: 0.5px;
+    }
+
+    h1, #menu {
+        margin: auto;
+    }
+
+    #nav-logo {
+        height: 150px;
+        width: 100%;
+    }
+}
+
+
 /* 
 @media screen and (max-width: 820px) {
 
@@ -773,29 +759,50 @@ label {
     /* #eat-heading {
         font-size: 1.5em;
     } */
-
+/* 
     #intro-text {
         font-size: 1.6em;
     }
-} */
+} */ 
 
 
 @media screen and (max-width: 450px) {
 
+
     #nav-logo {
-        height: 150px;
+        height: 100px;
     }
+
     
     h1 {
         font-size: 1.2em;
-        display: -ms-inline-grid;
+    }
+
+    #logo-container {
+        display: block;
+    }
+
+    #menu-container {
+        width: 20%;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 1px;
+        text-align: center;
+        display:block;
+        float: right;
+        padding-right: 0;
     }
 
     #menu>li {
-        font-size: 0.8em;
+        font-size: 0.7em;
         letter-spacing: 2px;
-        line-height: 0.5em;
-        display: -ms-inline-grid;
+        line-height: 0.8em;
+        float: none;
+        /* column-count: 0.5; */
+    }
+    
+    #menu {
+        text-align: left;
     }
 
     #intro-text {
@@ -808,6 +815,10 @@ label {
 
     #travel-text>h2 {
         font-size: 0.9em;
+    }
+
+    #travel-text>p {
+        font-size: 0.7em;
     }
 
     #eat-text {
@@ -828,10 +839,24 @@ label {
 
 }
 
+/* @media screen and (max-width: 400px) {
+
+    #logo-container, #menu-container {
+        height: 70px;
+        line-height: 10px;
+    }
+
+    #menu {
+        font-size: 2px;
+    }
+
+} */
+
+
 @media screen and (max-width: 350px) {
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1em;
         display: inline-block;
         text-align: center;
     }
@@ -864,10 +889,11 @@ label {
     }
 
     #intro-text {
-        font-size: 0.8em;
+        font-size: 1.2em;
+        padding: 20px;
         margin: 0 auto;
-        position: relative;
-        text-align: justify;
+        /* position: relative; */
+        /* text-align: justify; */
     }
 
     #hero-image {
@@ -877,7 +903,7 @@ label {
     .social-media h3 {
         text-decoration: none;
         color: black;
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     .social-media i {
@@ -885,7 +911,7 @@ label {
     }
 
     #events-outer {
-        font-size: 0.3em;
+        font-size: 0.6em;
     }
 
     /* #events-heading {
@@ -893,37 +919,36 @@ label {
     } */
 
     #eat-container {
-        width: auto;
+        width: 90%;
         height: auto;
         margin: auto;
     }
 
-    #champagne-img {
+    #champagne-img,  #oysters-img {
         width: 50%;
         height: auto;
+
     }
 
-    #oysters-img {
-        width: 50%;
-        height: auto;
+    #eat-text {
+        font-size: 20px;
+        width: 110%;
     }
 
-    #eat-text>p {
-        font-size: 0.9em;
-    }
-
-    #eat-text>h4 {
+    #eat-text>h2 {
         font-size: 1.1em;
-        margin-right: 11%;
+        /* margin-right: 11%; */
+        line-height: 1px;
+        width: 80%;
     }
 
-    #eat-container {
+    /* #eat-container {
         width: auto;
         height: auto;
-    }
+    } */
 
     #eat-text>p {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     #eat-heading {
@@ -931,7 +956,14 @@ label {
     }
 
     #travel-text {
-        font-size: 0.31em;
+        font-size: 0.4em;
+        /* text-align: left; */
+        padding: 10px;
+    }
+
+    #travel-container {
+        width: 100%;
+        margin: 0 auto;
     }
 
     label {
@@ -951,14 +983,20 @@ label {
     }
 
     #form-text-container {
-        font-size: 1em;
-        display: block;
-        width: 75%;
+        font-size: 1.5em;
+        /* display: block; */
+        /* width: 75%; */
         height: auto;
     }
-
-    #form-heading>h4 {
+/* 
+    #form-heading>h2 {
         font-size: 0.4em;
-    }
+    } */
 
+}
+
+@media screen and (max-width: 280px) {
+    h1 {
+        font-size: 0.9em;
+    }
 }
