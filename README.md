@@ -95,9 +95,13 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ## Testing ##
 
-My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). As I had 5 navigation links this proved challenging. I opted for a list format on the top right had side of the screen by removing the float:right from #menu and float: left from #menu li. I then positioned the menu container so it was in the appropriate place. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
+My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping logo and navaigation bar in a container and setting display to inline-block helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
 
-On my eat+drink page and travel page the text content became misaligned on smaller screen sizes. I wasn't certain why as I had already wrote a text-align center in the main code. 
+Previously I had headers for the events and eat and drink page, 'Events in Edinburgh' and 'Edinburgh food and drink' but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the text-decoration:underline; as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the text-decoration: unerline; I thought this was the best option in this circumstance. At first it didn't work when I wrote - .active {text-decoration: underline}. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector. 
+
+On the eat+drink page I wanted to align the two images side by side as intially they were in a column. I wrapped the images in a container with their own seperate div's insides and used display: flex; on the container which gave the desired effect. 
+
+
 
 ### **Validators** ###
 
