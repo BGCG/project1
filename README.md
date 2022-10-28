@@ -12,7 +12,7 @@ Site can be found [here](https://bgcg.github.io/project1/).
 
 ### **Site purpose** ###
 
-To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to recieve live updates of Edinburgh events, resturant offers and travel advice. 
+To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to receive live updates of Edinburgh events, resturant offers and travel advice. 
 
 ### **Audience** ###
 
@@ -24,7 +24,7 @@ This website is built with reponsive design in mind to effectively respond to th
 
 ### **Accessibility** ###
 
-The website html code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
+The website HTML code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
 
 ### **Communication** ###
  
@@ -52,13 +52,13 @@ The imagery used was to reflect the beautiful scenery scene from the Edinbugh sk
 
 ### **Typography** ###
 
-Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. 
+Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. From google fonts, I also downloaded all the font weights/styles of Dongle to distinguish the logo from the main content of the page and to place emphasis on the navigation bar to improve readability on smaller screen sizes. 
 
 ## Features ##
 
 **Homepage:** 
 
-The home page with a picture of a view of Edinburgh skyline looking down on the Princes street with a div element palced over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
+The home page with a picture of a view of Edinburgh skyline looking down on the Princes street with a div element placed over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
 
 ![Screenshot-of-homepage](assets/images/home.png)
 ![Screenshot-of-welcome-video](assets/images/video.png)
@@ -95,7 +95,7 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ## Testing ##
 
-My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distored and at certain screen widths dissapeared behind other content at small screens sizes (especially 280px max screen width for galaxy fold devices). As I had 5 navigation links this proved challenging. I opted for a list format on the top right had side of the screen by removing the float:right from #menu and float: left from #menu li. I then positioned the menu container so it was in the appropriate place. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
+My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). As I had 5 navigation links this proved challenging. I opted for a list format on the top right had side of the screen by removing the float:right from #menu and float: left from #menu li. I then positioned the menu container so it was in the appropriate place. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
 
 On my eat+drink page and travel page the text content became misaligned on smaller screen sizes. I wasn't certain why as I had already wrote a text-align center in the main code. 
 

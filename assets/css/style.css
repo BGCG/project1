@@ -51,10 +51,9 @@ body {
     float: left;
 }
 
-.active {
-    border-bottom: 1px solid gray;
+#menu .active {
+    text-decoration: underline;
 }
-
 
 /* removal of text decoration of love edinburgh link back to homepage */
 
@@ -95,6 +94,7 @@ body {
     line-height: 100px;
     display: flex; 
     padding: 10px;
+    position: relative;
     /* height: 100px; */
 }
 
@@ -610,8 +610,8 @@ label {
 
     h1 {
         font-size: 1em;
-        /* display: block;
-        text-align: center; */
+        margin-top: 10px;
+        display: block
     }
 
     iframe {
@@ -639,6 +639,10 @@ label {
 
     h3 {
         font-size: 0.9em;
+    }
+
+    #logo-container {
+        justify-content: center;
     }
 
     #intro-text {
