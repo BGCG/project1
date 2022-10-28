@@ -1,6 +1,6 @@
 # **Love Edinburgh** #
 
-Love Edinburgh is a tourist site for Edinburgh which offers information on key events, resturants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of resutrant and events choices. Love Edinburgh provides the fundanmental key events and best (within budget) resturants to visit in Edinburgh. 
+Love Edinburgh is a tourist site for Edinburgh which offers information on key events, resturants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of resutrant and events choices. Love Edinburgh provides the fundanmental key events and best resturants to visit in Edinburgh. 
 
 This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma. The project is still under development. 
 
@@ -46,11 +46,11 @@ The site has a dark and amber color theme to represent the often foggy weather o
 
 ### **Imagery** ###
 
-The imagery used was to reflect the beautiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the Edinburgh festival (events page) and music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
+The imagery used was to reflect the beautiful scenery scene from the Edinbugh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminisent of those you would see at the Edinburgh Fringe festival (events page) and Edinburgh music festivals (newsletter), as well as the kind of resturants or bar experiences in Edinburgh (eat+drink page).
 
 ### **Typography** ###
 
-Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. From google fonts, I also downloaded all the font weights/styles of Dongle to distinguish the logo from the main content of the page and to place emphasis on the navigation bar to improve readability on smaller screen sizes. 
+Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. From Google Fonts, I also downloaded all the font weights/styles of Dongle to distinguish the logo from the main content of the page and to place emphasis on the navigation bar to improve readability on smaller screen sizes. 
 
 ## Features ##
 
@@ -63,13 +63,13 @@ The home page with a picture of a view of Edinburgh skyline looking down on the 
 
  **Events page:**
 
-The events pages lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival and the numerous music festivals.
+The events pages lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh. The idea is that this page would have updates on Events in and around Edinburgh where users can revisit. 
 
  ![Screenshot-of-events](assets/images/events.png)
 
  **Eat+Drink page:**
 
-The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh resturants that are popular spots in Edinburgh.
+The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh resturants that are popular spots in Edinburgh. 
 
 ![Screenshot-of-eat-drink](assets/images/eat-drink.png)
 
@@ -93,11 +93,23 @@ Each page contains a navigation menu in a intuitive place (top right hand corner
 
 ## Testing ##
 
-My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping the logo and navaigation bar in a container and setting display to inline-block helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar however I struggled due to time contraints but will definitely consider this option in future projects. 
+My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping the logo and navaigation bar in a container and setting `display` to `inline-block` helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar, however I struggled due to time contraints but will definitely consider this option in future projects. 
 
-Previously I had headers for the events and eat and drink page, 'Events in Edinburgh' and 'Edinburgh food and drink' but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: unerline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote - `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
+Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: unerline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
 
 On the eat+drink page I wanted to align the two images side by side as intially they were in a column when using `display:inline-block`. I wrapped the images in a container with their own seperate div's insides and used `display: flex;` on the container which gave the desired effect. I found this [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media very helpful in troubleshooting this issue. 
+
+Key testing points; 
+
+* I have tested this site works on Google Chrome, Microsoft Edge and Firefox.
+
+* I have confirmed that the site is responsive to multiple screen widths using the devtools device toolbar.
+
+* I have confirmed that when I enter details into the form on the sign up page that the form works and takes the page to the Code Institute formdump as intended and the email input only accepts an email address.
+
+* I have confirmed the social media and navigations links work and take the user to the page or website, respectively.
+
+* I have confirmed that the header, navigation bar and main content on each of the pages is visible.
 
 ### **Validators** ###
 
@@ -115,7 +127,7 @@ On the eat+drink page I wanted to align the two images side by side as intially 
 
 This project will be hosted using github pages by executing the following steps;
 
-* Go to my settings on my github 'project1' repository
+* Go to settings on the Github repository
 * Click on pages
 * Set branch to 'main'
 
@@ -128,17 +140,17 @@ This project will be hosted using github pages by executing the following steps;
 
 ### **Programs, libraries and frameworks used** ###
 
-* GitHub - I used internent hosting site github.com to host this website 
-* Gitpod - I used the gitpod developer platform to code my website and then was pushed to github 
-* Google fonts - I used the Dongle font throughout this website from google fonts
-* fontawesome - the facebook, instagram and twiiter icons are from fontawesome.com
+* GitHub - The internet hosting site github.com to host this website 
+* Gitpod - Gitpod developer platform was used to code my website and then was pushed to github 
+* Google fonts - Dongle font was used throughout this site and was downloaded from Google Fonts
+* fontawesome - The facebook, Instagram and Twiiter icons are from fontawesome.com
 * Am I responsive? - to check that website looks good across different devices
 
 ## Credits ##
 
 ### **Content** ###
 
-Due to my beginner experience in web development, aspects of this project were loosely based on the code institute love runnning project - in particular the header and footer elements. Precisely I have used the wildcard margin and padding code, also used in the love running project, in order to improve control of position of content. 
+Due to my beginner experience in web development, aspects of this project were loosely based on the Code Institute Love Runnning project - in particular the header and footer elements. Precisely, I have used the wildcard margin and padding code, also used in the love running project, in order to improve control of content positioning. 
 
 Opacity hover effects of div elements on events page was taken from inspiration from [this w3 schools page](https://www.w3schools.com/css/css_image_transparency.asp). 
 
@@ -156,13 +168,14 @@ I had an issue with alignment of header and nav bar when I placed the logo above
 
 #### Images ####
 
-All images used are from pexels.com which offers royality-free images. Thank you pexels.com! Specific credits for images where I have cited the original file names of the images which I believe contains the name or username of the photographer who shared the photo on pexels;
+All images used are from pexels.com which offers royality-free images. Thank you pexels.com! Specific credits for images;
 
 * index.html page / hero image: [Pixabay](https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/)
 
 * todo.html page background image: [Wendy Wei](https://www.pexels.com/photo/silhouette-photography-of-people-on-theater-1714361/)
 
 * Girls and champagne image (eat+drink page): [Inga Seliverstova](https://www.pexels.com/photo/woman-in-silver-v-neck-long-sleeved-dress-3394310/)
+
 * Oysters image (eat+drink page): [sl wong](https://www.pexels.com/photo/selective-focus-photo-of-oysters-ceramic-tray-3534584/)
 
 * Travel adive page background image: [Danila Giancipoli](https://www.pexels.com/photo/three-person-crossing-streets-2242170/)
@@ -173,7 +186,7 @@ Licencing information for pexels.com can be found [here](https://www.pexels.com/
 
 #### Social media icons ####
 
-Social media icons are from fontawesome.com (thank you!)
+Social media icons are from fontawesome.com (thank you!).
 
 Licencing information for fontawesome.com can be found [here](https://fontawesome.com/license).
 
