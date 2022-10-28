@@ -59,14 +59,15 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 **Navigation menu:**
 
-* Each page contains a navigation menu in a intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. The active page will also be underline so the user knows which page they are on. 
+* Each page contains a navigation menu in a intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. 
+* In the navigation bar, the active page will also be underline so the user knows which page they are on. 
 
 ![Screenshot-of-navigation](assets/images/navbar.png) 
 
 **Homepage:** 
 
 * The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with a div element placed over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. 
-*When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
+* When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
 
 ![Screenshot-of-homepage](assets/images/homepage.png)
 ![Screenshot-of-welcome-video](assets/images/video.png)
@@ -80,7 +81,7 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
  **Eat+Drink page:**
 
-* Images of the type of resturant experience you may have in Edinburgh 
+* Images of the type of resturant experience you may have in Edinburgh. 
 * The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh resturants that are popular spots in Edinburgh.
 
 ![Screenshot-of-eat-drink](assets/images/eat-drink-page.png)
@@ -102,7 +103,7 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping the logo and navaigation bar in a container and setting `display` to `inline-block` helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar, however I struggled due to time contraints but will definitely consider this option in future projects. 
 
-Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: unerline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
+Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
 
 On the eat+drink page I wanted to align the two images side by side as intially they were in a column when using `display:inline-block`. I wrapped the images in a container with their own seperate div's insides and used `display: flex;` on the container which gave the desired effect. I found this [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media very helpful in troubleshooting this issue. 
 
@@ -149,7 +150,7 @@ This project will be hosted using github pages by executing the following steps;
 
 * GitHub - The internet hosting site github.com to host this website 
 * Gitpod - Gitpod developer platform was used to code my website and then was pushed to github 
-* Google fonts - Dongle font was used throughout this site and was downloaded from Google Fonts
+* Google fonts - Dongle font was used throughout this site which was downloaded from Google Fonts
 * fontawesome - The facebook, Instagram and Twiiter icons are from fontawesome.com
 * Am I responsive? - to check that website looks good across different devices
 
