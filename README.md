@@ -54,42 +54,49 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 ## Features ##
 
+**Header:** 
+* Love Edinburg logo with a clickable links that takes you back to the home page if you travel to a different page. 
+
+**Navigation menu:**
+
+* Each page contains a navigation menu in a intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. The active page will also be underline so the user knows which page they are on. 
+
+![Screenshot-of-navigation](assets/images/navbar.png) 
+
 **Homepage:** 
 
-The home page with a picture of a view of Edinburgh skyline looking down on the Princes street with a div element placed over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
+* The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with a div element placed over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. 
+*When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
 
-![Screenshot-of-homepage](assets/images/home.png)
+![Screenshot-of-homepage](assets/images/homepage.png)
 ![Screenshot-of-welcome-video](assets/images/video.png)
 
  **Events page:**
 
-The events pages lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh. The idea is that this page would have updates on Events in and around Edinburgh where users can revisit. 
+* The events pages lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh. 
+* The idea is that this page would have updates on Events in and around Edinburgh where users can revisit. 
 
- ![Screenshot-of-events](assets/images/events.png)
+ ![Screenshot-of-events](assets/images/events-page.png)
 
  **Eat+Drink page:**
 
-The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh resturants that are popular spots in Edinburgh. 
+* Images of the type of resturant experience you may have in Edinburgh 
+* The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh resturants that are popular spots in Edinburgh.
 
-![Screenshot-of-eat-drink](assets/images/eat-drink.png)
+![Screenshot-of-eat-drink](assets/images/eat-drink-page.png)
 
 **Travel advice page:**
 
-This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane and how to get around Edinburgh by bus.
+* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane and how to get around Edinburgh by bus.
 
-![Screenshot-of-travel-adice](assets/images/travel-advice.png)
+![Screenshot-of-travel-adice](assets/images/travel-page.png)
 
 **Social media links:** 
 
-Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh, as well as adding a community connection to other tourists and locals in Edinburgh. 
+* Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh, as well as adding a community connection to other tourists and locals in Edinburgh. 
 
-![Screenshot-of-social-media](assets/images/social-media-footer.png)
+![Screenshot-of-social-media](assets/images/social-media-links.png)
 
-**Navigation menu:**
-
-Each page contains a navigation menu in a intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. The active page will also be underline so the user knows which page they are on. 
-
-![Screenshot-of-navigation](assets/images/navigation.png)
 
 ## Testing ##
 
