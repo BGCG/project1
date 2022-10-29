@@ -10,7 +10,7 @@ Site can be found [here](https://bgcg.github.io/project1/).
 
 ### **Site purpose** ###
 
-To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to receive live updates of Edinburgh events, resturant offers and travel advice. 
+To provide event and resturant information about Edinburgh, as well as travel advice. Due to it's connection with a fictional social media group "Love Edinburgh", it provides a means for those new to Edinburgh to connect with tourists or new residents to Edinburgh. Site visitors can also sign up to a fictional newsletter to receive live updates of Edinburgh events, resturant offers and travel advice. 
 
 ### **Audience** ###
 
@@ -22,7 +22,7 @@ This website is built with reponsive design in mind to effectively respond to th
 
 ### **Accessibility** ###
 
-The website HTML code includes aria-labels for social media links and also alt labels for html images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
+The website HTML code includes aria-labels for social media links and also alt labels for HTML images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
 
 ### **Communication** ###
  
@@ -54,12 +54,14 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 ## Features ##
 
-**Header:** 
-* Love Edinburg logo with a clickable links that takes you back to the home page if you travel to a different page. 
+**Logo:** 
+* Each page contains a 'Love Edinburgh' logo with a clickable links that takes you back to the home page if you travel to a different page. 
+
+![Screenshot-of-logo](assets/images/logo-love-edinburgh.jpg) 
 
 **Navigation menu:**
 
-* Each page contains a navigation menu in a intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. 
+* Each page contains a navigation menu in an intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. 
 * In the navigation bar, the active page will also be underline so the user knows which page they are on. 
 
 ![Screenshot-of-navigation](assets/images/navbar.png) 
@@ -178,17 +180,17 @@ I had an issue with alignment of header and nav bar when I placed the logo above
 
 All images used are from pexels.com which offers royality-free images. Thank you pexels.com! Specific credits for images;
 
-* index.html page / hero image: [Pixabay](https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/)
+* homepage hero image: [Pixabay](https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/)
 
-* todo.html page background image: [Wendy Wei](https://www.pexels.com/photo/silhouette-photography-of-people-on-theater-1714361/)
+* events page background image: [Wendy Wei](https://www.pexels.com/photo/silhouette-photography-of-people-on-theater-1714361/)
 
-* Girls and champagne image (eat+drink page): [Inga Seliverstova](https://www.pexels.com/photo/woman-in-silver-v-neck-long-sleeved-dress-3394310/)
+* eat+drink page (girls and champagne image): [Inga Seliverstova](https://www.pexels.com/photo/woman-in-silver-v-neck-long-sleeved-dress-3394310/)
 
-* Oysters image (eat+drink page): [sl wong](https://www.pexels.com/photo/selective-focus-photo-of-oysters-ceramic-tray-3534584/)
+*eat+drink page (Oysters image: [sl wong](https://www.pexels.com/photo/selective-focus-photo-of-oysters-ceramic-tray-3534584/)
 
 * Travel adive page background image: [Danila Giancipoli](https://www.pexels.com/photo/three-person-crossing-streets-2242170/)
 
-* newsletter.html bakground image: [Wendy Wei](https://www.pexels.com/photo/photo-of-live-concert-1540372/)
+* signup/newsletter page bakground image: [Wendy Wei](https://www.pexels.com/photo/photo-of-live-concert-1540372/)
 
 Licencing information for pexels.com can be found [here](https://www.pexels.com/license/).
 
