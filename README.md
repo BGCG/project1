@@ -68,7 +68,7 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 **Homepage:** 
 
-* The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with a div element placed over containing text stating reasons to visit Edinburgh and an introduction to what the site can offer. 
+* The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer. 
 * When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
 
 ![Screenshot-of-homepage](assets/images/homepage.png)
@@ -90,13 +90,15 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 **Travel advice page:**
 
-* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane and how to get around Edinburgh by bus.
+* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane 
+* The travel page also provides information on how to get around Edinburgh by bus.
 
 ![Screenshot-of-travel-adice](assets/images/travel-page.png)
 
 **Social media links:** 
 
-* Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh, as well as adding a community connection to other tourists and locals in Edinburgh. 
+* Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh. 
+* Addtionally the social media links adds a community connection to other tourists and locals in Edinburgh. 
 
 ![Screenshot-of-social-media](assets/images/social-media-links.png)
 
