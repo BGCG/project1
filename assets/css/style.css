@@ -127,7 +127,6 @@ p {
 #intro-text {
     font-family: Dongle, Helvetica, sans-serif;
     margin: 0 30% 0 0;
-    /* font-size: 35px; */
     padding: 50px;
 }
 
@@ -174,10 +173,6 @@ footer li {
     margin: 1.1%;
     font-size: 2em;
     color: #000000;
-}
-
-.social-media h3 {
-    /* font-size: 200%; */
 }
 
 /* Addition of background image on events page */
@@ -291,7 +286,6 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /* styling of text on travel advice page and div element */
 
 #travel-text {
-    /* font-size: 1.9em;  */
     color: white;
     background-color: black;
     opacity: 0.85;
@@ -304,7 +298,6 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 #travel-text>h2 {
     text-decoration: underline;
     padding: 15px;
-    /* font-size: 1.7em; */
 } 
 
 /* Addition of image background for form on newsletter page. 
@@ -323,7 +316,6 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
     background-color: rgb(4, 0, 0);
     color: white;
     font-family: Dongle, Helvetica, sans-serif;
-    /* font-size: 30px; */
     opacity: 0.9;
     padding: 10px;
     line-height: 30px;
@@ -355,11 +347,6 @@ label {
     #form-text-container {
         width: auto;
         margin: 0 auto;
-        position: absolute;
-    }
-
-    #form-image {
-        position: realtive;
     }
 
     #eat-container {
@@ -382,25 +369,13 @@ label {
         background-size: cover;
     }
 
-    /* .social-media h3 {
-        font-size: 35px;
-    } */
-
     #eat-container {
         width: auto;
     } 
 
-    /* #travel-text {
-        font-size: 2em;
-    } */
-
     #travel-container {
         width: auto;
     }
-
-    /* label {
-        font-size: 0.85em; 
-    } */
 
     #form-text-container {
         width: auto;
@@ -421,10 +396,6 @@ label {
     #menu {
         font-size: 1.6em;
     }
-
-    /* #travel-text {
-        font-size: 1.8em;
-    } */
 
     footer {
         padding: 0;
@@ -547,26 +518,6 @@ label {
         margin-left: auto;
     }
 
-    /* #travel-text>h2 {
-        font-size: 1.2em;
-    }
-
-    #travel-text>p {
-        font-size: 0.9em;
-    }
-
-    #eat-text {
-        font-size: 0.9em;
-    }
-
-    #eat-text>h3 {
-        font-size: 1.8em;
-    }
-
-    #events-outer {
-        font-size: 0.7em;
-    } */
-
     #form-text-container {
         font-size: 16px;
         height: auto;
@@ -662,8 +613,6 @@ label {
 
     #eat-container {
         width: 90%;
-        /* height: auto; */
-        /* margin: auto; */
     }
 
     #eat-text {
@@ -673,7 +622,6 @@ label {
     #eat-text>h2, #eat-text>p {
         line-height: 25px;
         padding: 3px;
-        /* text-align: left; */
     }
 
     #champagne-img,  #oysters-img {
@@ -681,28 +629,6 @@ label {
         height: auto;
 
     }
-
-    /* #eat-text {
-        font-size: 20px;
-        width: 100%;
-        padding: 0;
-    } */
-
-    /* #eat-text>h2 {
-        font-size: 1.1em;
-        line-height: 1px;
-        width: 80%;
-    } */
-
-    /* #eat-text>p {
-        font-size: 0.8em;
-    } */
-/* 
-    #travel-text {
-        font-size: 0.4em;
-        padding: 10px;
-    } */
-
 
     #newsletter-form {
         margin-left: 10px;
