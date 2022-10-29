@@ -25,13 +25,17 @@ h2 {
 
 h3 {
     font-family: Dongle, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 body {
     font-family: Dongle, Helvetica, sans-serif;
     color: black;
     font-weight: 300;
+}
+
+p {
+    font-size: 33px;
 }
 
 /* Postioning of logo and navigation containers and outer container */
@@ -123,7 +127,7 @@ body {
 #intro-text {
     font-family: Dongle, Helvetica, sans-serif;
     margin: 0 30% 0 0;
-    font-size: 35px;
+    /* font-size: 35px; */
     padding: 50px;
 }
 
@@ -173,7 +177,7 @@ footer li {
 }
 
 .social-media h3 {
-    font-size: 200%;
+    /* font-size: 200%; */
 }
 
 /* Addition of background image on events page */
@@ -234,10 +238,6 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     padding: 20px; 
 }
 
-#eat-text>p {
-    font-size: 32px;
-}
-
 #eat-text>h2, #eat-text>p {
     line-height: 30px;
     text-align: center;
@@ -291,7 +291,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /* styling of text on travel advice page and div element */
 
 #travel-text {
-    font-size: 1.9em; 
+    /* font-size: 1.9em;  */
     color: white;
     background-color: black;
     opacity: 0.85;
@@ -304,7 +304,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 #travel-text>h2 {
     text-decoration: underline;
     padding: 15px;
-    font-size: 1.7em;
+    /* font-size: 1.7em; */
 } 
 
 /* Addition of image background for form on newsletter page. 
@@ -323,7 +323,7 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
     background-color: rgb(4, 0, 0);
     color: white;
     font-family: Dongle, Helvetica, sans-serif;
-    font-size: 30px;
+    /* font-size: 30px; */
     opacity: 0.9;
     padding: 10px;
     line-height: 30px;
@@ -345,12 +345,10 @@ label {
     display: inline-block;
     width: 105px;
     height: auto;
-    font-size: 25px; 
+    font-size: 25px;
 }
 
-
 /* Responsive element code below */
-
 
 @media screen and (max-width: 2000px) {
 
@@ -384,35 +382,34 @@ label {
         background-size: cover;
     }
 
-    .social-media h3 {
+    /* .social-media h3 {
         font-size: 35px;
-    }
+    } */
 
     #eat-container {
         width: auto;
     } 
 
-    #travel-text {
+    /* #travel-text {
         font-size: 2em;
-    }
+    } */
 
     #travel-container {
         width: auto;
     }
 
-    label {
+    /* label {
         font-size: 0.85em; 
-    }
+    } */
 
     #form-text-container {
-        width: 100%;
+        width: auto;
         height: 200px;
     }
 
     #newsletter-form>input {
         margin-left: 5px;
     }
-
 }
 
 @media screen and (max-width: 976px) {
@@ -425,19 +422,25 @@ label {
         font-size: 1.6em;
     }
 
-    #travel-text {
+    /* #travel-text {
         font-size: 1.8em;
-    }
+    } */
 
     footer {
         padding: 0;
     }
+
+    #events-fringe, #events-film, #events-book, #events-music {
+        width: 90%;
+        margin: 10px;
+    }
+
 }
 
 @media screen and (max-width: 821px) {
 
     h2 {
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
 
     #menu>li {
@@ -447,10 +450,8 @@ label {
     }
 
     #intro-text {
-        font-size: 1.6em;
+        width: auto;
         margin: 0 auto;
-        position: relative;
-        text-align: justify;
     }
 
     #menu {
@@ -463,30 +464,6 @@ label {
 
     .social-media i {
         font-size: 1.5em;
-    }
-
-    #travel-container {
-        font-size: 50px;
-    }
-
-    #travel-text {
-        font-size: 0.5em;
-    }
-
-    #events-fringe>p, #events-film>p, #events-book>p, #events-music>p {
-    font-size: 0.9em;
-    }
-
-    #events-fringe>h2, #events-film>h2, #events-book>h2, #events-music>h2 {
-        font-size: 1.1em;
-        }
-
-    #eat-text>h2 {
-        font-size: 1.9em;
-    }
-
-    #eat-text>p {
-        font-size: 1.7em;
     }
 
     label {
@@ -517,17 +494,13 @@ label {
         letter-spacing: 1px;
     }
 
-    #travel-text>p {
-        font-size: 1em;
-    } 
+    h2 {
+        font-size: 35px;
+    }
 
-    #travel-text>h2 {
-        font-size: 1.2em;
-    } 
-
-     #events-outer {
-        font-size:  0.9em;
-    } 
+    p {
+        font-size: 30px;
+    }
 
 }
 
@@ -537,9 +510,12 @@ label {
         height: 90px;
     }
 
-    
     h1 {
         font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
     }
 
     #logo-container {
@@ -563,14 +539,15 @@ label {
     }
 
     #intro-text {
-        font-size: 1.4em;
+        margin-right: 15%;
+        line-height: 30px;
     }
 
     .signup-button {
         margin-left: auto;
     }
 
-    #travel-text>h2 {
+    /* #travel-text>h2 {
         font-size: 1.2em;
     }
 
@@ -588,7 +565,7 @@ label {
 
     #events-outer {
         font-size: 0.7em;
-    }
+    } */
 
     #form-text-container {
         font-size: 16px;
@@ -601,23 +578,44 @@ label {
 
 }
 
-@media screen and (max-width: 534px) {
+@media screen and (max-width: 650px) {
 
     #travel-container {
         width: 100%;
         margin: 0 auto;
     }
 
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
 }
 
 
-@media screen and (max-width: 373px) {
+@media screen and (max-width: 450px) {
 
     h1 {
         font-size: 1em;
         margin-top: 10px;
         display: block
     }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    
 
     iframe {
         width: 90%;
@@ -636,14 +634,6 @@ label {
         letter-spacing: 0.2px; 
     }   
 
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 0.9em;
-    }
-    
     #logo-container {
         justify-content: center;
      }
@@ -658,11 +648,9 @@ label {
         width: auto;
     }
 
-    .social-media h3 {
-        text-decoration: none;
-        color: black;
-        font-size: 0.9em;
-    }
+   .social-media h3 {
+        font-size: 1.2em;
+    } 
 
     .social-media i {
         font-size: 1em;
@@ -674,8 +662,18 @@ label {
 
     #eat-container {
         width: 90%;
-        height: auto;
-        margin: auto;
+        /* height: auto; */
+        /* margin: auto; */
+    }
+
+    #eat-text {
+        padding: 3px;
+    }
+    
+    #eat-text>h2, #eat-text>p {
+        line-height: 25px;
+        padding: 3px;
+        /* text-align: left; */
     }
 
     #champagne-img,  #oysters-img {
@@ -684,30 +682,26 @@ label {
 
     }
 
-    #eat-text {
+    /* #eat-text {
         font-size: 20px;
         width: 100%;
         padding: 0;
-    }
+    } */
 
-    #eat-text>h2 {
+    /* #eat-text>h2 {
         font-size: 1.1em;
         line-height: 1px;
         width: 80%;
-    }
+    } */
 
-    #eat-text>p {
+    /* #eat-text>p {
         font-size: 0.8em;
-    }
-
-    #eat-heading {
-        font-size: 15px;
-    }
-
+    } */
+/* 
     #travel-text {
         font-size: 0.4em;
         padding: 10px;
-    }
+    } */
 
 
     #newsletter-form {
@@ -715,11 +709,17 @@ label {
     }
 
     label {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .signup-button {
         margin-left: auto;
+    }
+
+    #travel-text {
+        padding: 5px;
+        margin: 0 auto;
+        width: auto;
     }
 
 }
@@ -728,6 +728,18 @@ label {
     
     h1 {
         font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.4em
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    #intro-text {
+        line-height: 25px;
     }
 
 }
