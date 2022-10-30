@@ -401,6 +401,10 @@ label {
         padding: 0;
     }
 
+    #intro-text {
+        margin-right: 11%;
+    }
+
     #events-fringe, #events-film, #events-book, #events-music {
         width: 90%;
         margin: 10px;
@@ -564,7 +568,7 @@ label {
     }
 
     p {
-        font-size: 20px;
+        font-size: 25px;
     }
     
 
@@ -635,7 +639,7 @@ label {
     }
 
     label {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .signup-button {
@@ -661,7 +665,7 @@ label {
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     #intro-text {

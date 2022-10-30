@@ -105,7 +105,7 @@ Dongle font from Google Fonts was use throughout the website which is a sans ser
 
 ## Testing ##
 
-### **Troubleshooting and optimisation** ###
+### **Troubleshooting and Optimisation** ###
 
 My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping the logo and navaigation bar in a container and setting `display` to `inline-block` helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar, however I struggled due to time contraints but will definitely consider this option in future projects. 
 
@@ -115,7 +115,7 @@ On the eat+drink page I wanted to align the two images side by side as intially 
 
 ### **Key testing points** ### 
 
-* I have tested this site works on Google Chrome, Microsoft Edge and Firefox.
+* I have tested this site works on Google Chrome, Microsoft Edge, Safari and Firefox.
 
 * I have confirmed that the site is responsive to multiple screen widths using the devtools device toolbar.
 
