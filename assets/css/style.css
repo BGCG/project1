@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Fredoka:wght@300;400&display=swap');
 
-/* wildcard code inspired from code institute love running project  */
+/* wildcard code from Code Institute Love Running project  */
 
 * {
     margin: 0;
@@ -589,12 +589,8 @@ label {
         letter-spacing: 0.2px; 
     }   
 
-    #logo-container {
-        justify-content: center;
-     }
-
     #intro-text {
-        font-size: 1.2em;
+        line-height: 25px;
         padding: 20px;
         margin: 0 auto;
     }
@@ -669,7 +665,8 @@ label {
     }
 
     #intro-text {
-        line-height: 25px;
+        line-height: 20px;
+        text-align: justify;
     }
 
 }

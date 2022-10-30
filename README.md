@@ -22,7 +22,7 @@ This website is built with reponsive design in mind to effectively respond to th
 
 ### **Accessibility** ###
 
-The website HTML code includes aria-labels for social media links and also alt labels for HTML images as well as aria-labels for CSS inputed images inserted into the div elements they are associated with by id selectors. 
+The website HTML code includes aria-labels for social media links and alt labels for HTML images. All images inputed using CSS (as are the images on the Home, Events and Signup page) are for decorative purposes only.
 
 ### **Communication** ###
  
@@ -164,13 +164,13 @@ This project is hosted using Github pages by executing the following steps;
 
 ### **Content** ###
 
-Due to my beginner experience in web development, aspects of this project were loosely based on the Code Institute Love Runnning project - in particular the header and footer elements. Precisely, I have used the wildcard margin and padding code, also used in the Love Running project, in order to improve control of content positioning. 
+Due to my beginner experience in web development, aspects of this project were loosely based on the Code Institute Love Runnning project - in particular the header and footer elements. I did code the headers and footers from memory but then revisited the Love Running project walkthrough to ensure I hadn't forgot anything (which I hadn't). In terms of specific code taken from the Love Runnning project, I have used the wildcard margin and padding code, in order to improve control of content positioning. 
 
-Opacity hover effects of div elements on events page was taken from inspiration from [this w3 schools page](https://www.w3schools.com/css/css_image_transparency.asp). 
+Opacity hover effects of div elements on events page was taken from inspiration from [this W3 schools page](https://www.w3schools.com/css/css_image_transparency.asp). 
 
 I found the stack overflow reply wriiten by [Red Zephyr Design and Terry](https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted) useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes. I found the `height: auto;` and `background-size: contain;` useful. 
 
-[The display W3 school page](https://www.w3schools.com/cssref/pr_class_display.asp) was helpful in reminding me of all the display parameters I can use and there meaning.
+[The display W3 schools page](https://www.w3schools.com/cssref/pr_class_display.asp) was helpful in reminding me of all the display parameters I can use and there meaning.
 
 I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) on Stack Overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
 
