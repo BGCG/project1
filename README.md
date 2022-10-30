@@ -50,7 +50,7 @@ The imagery used was to reflect the beautiful scenery scene from the Edinbugh sk
 
 ### **Typography** ###
 
-Dongle font from google fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. From Google Fonts, I also downloaded all the font weights/styles of Dongle to distinguish the logo from the main content of the page and to place emphasis on the navigation bar to improve readability on smaller screen sizes. 
+Dongle font from Google Fonts was use throughout the website which is a sans serif font. I used this due to it's soft display, ease of readability and informal, welcoming nature. From Google Fonts, I also downloaded all the font weights/styles of Dongle to distinguish the logo from the main content of the page and to place emphasis on the navigation bar to improve readability on smaller screen sizes. 
 
 ## Features ##
 
@@ -62,7 +62,7 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 **Navigation menu:**
 
 * Each page contains a navigation menu in an intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray. 
-* In the navigation bar, the active page will also be underline so the user knows which page they are on. 
+* In the navigation bar, the active page will also be underlined so the user knows which page they are on. 
 
 ![Screenshot-of-navigation](assets/images/navbar.png) 
 
@@ -97,21 +97,23 @@ Dongle font from google fonts was use throughout the website which is a sans ser
 
 **Social media links:** 
 
-* Social media links are provided at the footer of each page for a fictional social media account "Love Edinburgh" which provides regular live updates of events and offers in Edinburgh. 
-* Addtionally the social media links adds a community connection to other tourists and locals in Edinburgh. 
+* Social media links are provided at the footer of each page for a fictional social media account 'Love Edinburgh' which provides regular live updates of events and offers in Edinburgh. 
+* Additionally, the social media links adds a community connection to other tourists and locals in Edinburgh. 
 
 ![Screenshot-of-social-media](assets/images/social-media-links.png)
 
 
 ## Testing ##
 
+### **Troubleshooting and optimisation** ###
+
 My main areas which required much optimisation and testing was when coding the repsonsive design queries - especially to code the navigaion bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disapeared behind other content at small screens sizes (especially 280px max screen width for Galaxy Fold devices). I found wrapping the logo and navaigation bar in a container and setting `display` to `inline-block` helped. Then I made the logo and menu their own seperate div's inside the nav-logo container. I would have liked to code a dropdown navigation bar, however I struggled due to time contraints but will definitely consider this option in future projects. 
 
-Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
+Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively, but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS heirachy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoratoion: underline}`.
 
 On the eat+drink page I wanted to align the two images side by side as intially they were in a column when using `display:inline-block`. I wrapped the images in a container with their own seperate div's insides and used `display: flex;` on the container which gave the desired effect. I found this [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media very helpful in troubleshooting this issue. 
 
-Key testing points; 
+### **Key testing points** ### 
 
 * I have tested this site works on Google Chrome, Microsoft Edge and Firefox.
 
@@ -127,7 +129,7 @@ Key testing points;
 
 * The W3C CSS validation service was used and no errors were found.
 
-* The W3C html validation service was used and no errors were found.
+* The W3C HTML validation service was used and no errors were found.
 
 * Lighthouse report output showed an excellent accessibility score. 
 
@@ -137,11 +139,11 @@ Key testing points;
 
 ## Deployment ##
 
-This project will be hosted using github pages by executing the following steps;
+This project is hosted using Github pages by executing the following steps;
 
-* Go to settings on the Github repository
-* Click on pages
-* Set branch to 'main'
+* Go to settings on the Github repository.
+* Click on pages.
+* Set branch to 'main'.
 
 ## Technologies used ##
 
@@ -162,15 +164,15 @@ This project will be hosted using github pages by executing the following steps;
 
 ### **Content** ###
 
-Due to my beginner experience in web development, aspects of this project were loosely based on the Code Institute Love Runnning project - in particular the header and footer elements. Precisely, I have used the wildcard margin and padding code, also used in the love running project, in order to improve control of content positioning. 
+Due to my beginner experience in web development, aspects of this project were loosely based on the Code Institute Love Runnning project - in particular the header and footer elements. Precisely, I have used the wildcard margin and padding code, also used in the Love Running project, in order to improve control of content positioning. 
 
 Opacity hover effects of div elements on events page was taken from inspiration from [this w3 schools page](https://www.w3schools.com/css/css_image_transparency.asp). 
 
-I found the stack overflow reply wriiten by [Red Zephyr Design and Terry](https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted) useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes. I found the 'height: auto;' and 'background-size: contain;' useful. 
+I found the stack overflow reply wriiten by [Red Zephyr Design and Terry](https://stackoverflow.com/questions/15042986/bootstrap-responsive-css-image-width-skewed-and-distorted) useful to remind me how to resize images so they will not be distorted on smaller or larger screen sizes or simply positioned correctly in normal screen sizes. I found the `height: auto;` and `background-size: contain;` useful. 
 
 [The display W3 school page](https://www.w3schools.com/cssref/pr_class_display.asp) was helpful in reminding me of all the display parameters I can use and there meaning.
 
-I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html ) on stack overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
+I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) on Stack Overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
 
 Advice that I used for putting aira-label in div elements was found [here](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible).
 
@@ -204,7 +206,7 @@ Licencing information for fontawesome.com can be found [here](https://fontawesom
 
 #### Video ####
 
-Credits for video on home page; Video created by [Around The World 4K](https://www.youtube.com/watch?v=SRNyfBRhq0A).
+Credits for video on home page; Video created by [Around The World 4K](https://www.youtube.com/watch?v=SRNyfBRhq0A). The video was inserted right clicking on the video and selecting 'Copy embed code' and pasting this into the desired place in the index.html file.
 
 #### People ####
 
