@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Fredoka:wght@300;400&display=swap');
 
-/* wildcard code from Code Institute Love Running project  */
+/* Wildcard code from Code Institute Love Running project  */
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
     border: none;
 }
 
-/* heading and body styling */
+/* Heading and Body styling */
 
 h1 {
     font-family: Dongle, sans-serif;
@@ -91,7 +91,7 @@ p {
 }
 
 
-/* alignment of site logo and header */
+/* Alignment of site logo and header */
 
 #logo,
 #menu {
@@ -101,20 +101,20 @@ p {
     position: relative;
 }
 
-/* addition of hover effect of navigation menu */
+/* Addition of hover effect of navigation menu */
 
 #menu a:hover {
     color: gray;
 }
 
-/* addition of hero image on homepage */
+/* Addition of hero image on homepage */
 
 #hero-outer {
     height: 1200px;
     width: 100%;
 }
 
-/* image from pexels.com - https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/ */
+/* Image from pexels.com - https://www.pexels.com/photo/silhouette-of-big-ben-surrounded-by-fog-during-daytime-161863/ */
 
 #hero-image {
     width: 100%;
@@ -123,7 +123,7 @@ p {
     background-size: cover;
 }
 
-/* positioning and styling of intro text (overlapping hero image */
+/* Positioning and styling of intro text (overlapping hero image */
 
 #intro-text {
     font-family: Dongle, Helvetica, sans-serif;
@@ -136,7 +136,7 @@ p {
 }
 
 
-/* repositioning of iframe element and it's associated div element on homepage */
+/* Repositioning of iframe element and it's associated div element on homepage */
 
 iframe {
     display: block;
@@ -148,7 +148,7 @@ iframe {
     margin-top: 10px;
 }
 
-/* addition of social media in footer and styling of footer */
+/* Addition of social media in footer and styling of footer */
 
 footer {
     height: 100px;
@@ -193,7 +193,7 @@ footer li {
     background-size: cover;
 }
 
-/* styling of div elements containing text on events page */
+/* Styling of div elements containing text on events page */
 
 #events-fringe {
     margin-top: 30px;
@@ -224,7 +224,7 @@ footer li {
     float: right;
 }
 
-/* styling of text of eat+drink page */
+/* Styling of text of eat+drink page */
 
 #eat-text {
     display: block;
@@ -243,10 +243,9 @@ footer li {
 #eat-container {
     display: flex;
     margin: auto;
-    position: relative;
 }
 
-/* styling of img elements on eat+drink page */
+/* Styling of img elements on eat+drink page */
 
 #champagne-img,
 #oysters-img {
@@ -255,7 +254,7 @@ footer li {
     padding-bottom: 30px;
 }
 
-/* positioning of travel outer element */
+/* Positioning of travel outer element */
 
 #travel-outer {
     height: 1000px;
@@ -275,7 +274,7 @@ footer li {
     background-size: cover;
 }
 
-/* styling of div element on travel page */
+/* Styling of div element on travel page */
 
 #travel-container {
     margin: 0 auto;
@@ -283,7 +282,7 @@ footer li {
     padding-top: 20px;
 }
 
-/* styling of text on travel advice page and div element */
+/* Styling of text on travel advice page and div element */
 
 #travel-text {
     color: white;
@@ -365,7 +364,6 @@ label {
     #hero-image {
         width: 100%;
         height: 1200px;
-        background-size: cover;
     }
 
     #eat-container {
@@ -377,7 +375,6 @@ label {
     }
 
     #form-text-container {
-        width: auto;
         height: 200px;
     }
 
@@ -410,26 +407,6 @@ label {
     #events-music {
         width: 90%;
         margin: 10px;
-    }
-
-}
-
-@media screen and (max-width: 760px) {
-
-    #logo {
-        font-size: 2.5em;
-    }
-
-    #menu {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 35px;
-    }
-
-    p {
-        font-size: 30px;
     }
 
 }
@@ -489,6 +466,26 @@ label {
 
     label {
         display: block;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    #logo {
+        font-size: 2.5em;
+    }
+
+    #menu {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 30px;
     }
 
 }
@@ -635,10 +632,6 @@ label {
         text-align: justify;
         background-color: #c0c2c4;
         opacity: 0.9;
-    }
-
-    #travel-text {
-        padding-top: 0;
     }
 
     #menu>li {

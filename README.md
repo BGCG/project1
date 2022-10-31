@@ -178,6 +178,8 @@ I found the stack overflow reply written by [Red Zephyr Design and Terry](https:
  
 I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) on Stack Overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
 
+When aligning the logo and navigation bar I found the reply from [Adam Grant](https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar) useful. Although I didn't follow the exact advice he recommended, I took inspiration from wrapping the logo and nav bar in their own container and then wrapped the logo and container gave better control of the positioning.
+
 The [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media was helpful in troubleshooting the image positioning on the eat and drink page as discussed in the testing section.
  
 ### **Media** ###
