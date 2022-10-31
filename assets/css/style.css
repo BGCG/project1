@@ -497,6 +497,12 @@ label {
         margin-right: 5px;
     }
 
+    #menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     h2 {
         font-size: 32px;
     }
