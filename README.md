@@ -3,6 +3,8 @@
 Love Edinburgh is a tourist site for Edinburgh which offers information on key events, restaurants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of restaurant and events choices. Love Edinburgh provides the fundamental key events and best restaurants to visit in Edinburgh.
  
 This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma.
+
+![Screenshot-of-intro-for-readme](assets/images/screenshots/intro-image-readme.png)
  
 Site can be found [here](https://bgcg.github.io/project1/).
  
@@ -178,7 +180,7 @@ I found the stack overflow reply written by [Red Zephyr Design and Terry](https:
  
 I had some difficulties aligning the labels in the form element to the inputs - I found the reply from [Byron](https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html) on Stack Overflow really helpful, who suggested to use display: in-line-block; to the label in CSS to align the label with the input element.
 
-When aligning the logo and navigation bar I found the reply from [Adam Grant](https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar) useful. Although I didn't follow the exact advice he recommended, I took inspiration from wrapping the logo and nav bar in their own container and then wrapped the logo and container gave better control of the positioning.
+When aligning the logo and navigation bar I found the reply from [Adam Grant](https://stackoverflow.com/questions/14104599/problems-aligning-my-logo-with-the-navigation-bar) useful. Although I didn't follow the exact advice recommended, I took inspiration from wrapping the logo and nav bar in their own container and then wrapped the logo and container gave better control of the positioning.
 
 The [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media was helpful in troubleshooting the image positioning on the eat and drink page as discussed in the testing section.
  
