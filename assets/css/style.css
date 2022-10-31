@@ -394,7 +394,7 @@ label {
     }
 
     #menu {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
 
     footer {
@@ -412,50 +412,6 @@ label {
 
 }
 
-@media screen and (max-width: 821px) {
-
-    h2 {
-        font-size: 37px;
-    }
-
-    #menu>li {
-        font-size: 0.9em;
-        margin-left: 5px;
-        margin-right: 3px;
-    }
-
-    #intro-text {
-        width: auto;
-        margin: 0 auto;
-    }
-
-    #menu {
-        font-size: 1.8em;
-    }
-
-    .social-media h3 {
-        font-size: 1.6em;
-    }
-
-    .social-media i {
-        font-size: 1.5em;
-    }
-
-    label {
-        font-size: 1.5em;
-    }
-
-    #newsletter-form {
-        margin-left: 20px;
-    }
-
-    #form-text-container {
-        font-size: 1em;
-        width: auto;
-    }
-
-}
-
 @media screen and (max-width: 760px) {
 
     #logo {
@@ -464,9 +420,6 @@ label {
 
     #menu {
         font-size: 1.5em;
-        margin-left: 2px;
-        margin-right: 5px;
-        letter-spacing: 1px;
     }
 
     h2 {
@@ -486,11 +439,11 @@ label {
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
-    h3 {
-        font-size: 1.6em;
+    .social-media h3 {
+        font-size: 1.9em;
     }
 
     #logo-container {
@@ -507,7 +460,7 @@ label {
     }
 
     #menu>li {
-        font-size: 0.9em;
+        font-size: 1.1em;
         font-weight: 400;
         letter-spacing: 2px;
         line-height: 0.8em;
@@ -540,16 +493,25 @@ label {
         margin: 0 auto;
     }
 
+    #menu>li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     h2 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 25px;
+        font-size: 26px;
+    }
+
+    #travel-text {
+        margin: 0 auto;
     }
 
 }
@@ -558,17 +520,18 @@ label {
 @media screen and (max-width: 450px) {
 
     h1 {
-        font-size: 1em;
+        font-size: 1.5em;
         margin-top: 10px;
-        display: block
+        display: block;
     }
 
     h2 {
-        font-size: 27px;
+        font-size: 40px;
     }
 
     p {
-        font-size: 25px;
+        font-size: 33px;
+        line-height: 30px;
     }
     
 
@@ -583,15 +546,14 @@ label {
     }
 
     #menu>li {
-        font-size: 0.9em;
+        font-size: 1.1em;
         margin-left: 3px;
         margin-right: 3px;
         letter-spacing: 0.2px; 
     }   
 
     #intro-text {
-        line-height: 25px;
-        padding: 20px;
+        padding: 15px;
         margin: 0 auto;
     }
 
@@ -600,11 +562,13 @@ label {
     }
 
    .social-media h3 {
-        font-size: 1.3em;
+        font-size: 2.1em;
+        line-height: 30px;
+        padding-top: 10px;
     } 
 
     .social-media i {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     #events-outer {
@@ -650,23 +614,38 @@ label {
 
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 352px) {
     
     h1 {
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
     h2 {
-        font-size: 1.4em
+        font-size: 1.9em
+    }
+
+    .social-media h3 {
+        font-size: 30px;
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1.6em;
+        line-height: 28px;
     }
 
     #intro-text {
-        line-height: 20px;
         text-align: justify;
+        background-color: #c0c2c4;
+        opacity: 0.9;
     }
+
+    #travel-text {
+        padding-top: 0;
+    }
+
+    #menu>li {
+        font-size: 0.8em;
+        letter-spacing: 0.1px; 
+    }  
 
 }
