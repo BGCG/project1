@@ -93,6 +93,12 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
 * The travel page also provides information on how to get around Edinburgh by bus.
  
 ![Screenshot-of-travel-adice](assets/images/screenshots/travel-page.png)
+
+**Signup page**
+
+*The last page is a newsletter sign up page where users can sign up to a fictional newsletter to receive live updates on events and restaurant offers in Edinburgh.
+
+![Screenshot-of-travel-advice](assets/images/screenshots/signup-page.png)
  
 **Social media links:**
  
