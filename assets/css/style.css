@@ -4,7 +4,7 @@
 
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     border: none;
 }
 
@@ -84,16 +84,17 @@ p {
     float: left;
     font-weight: 400;
 }
-    
+
 #menu a {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
 
 
 /* alignment of site logo and header */
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 100px;
     display: flex;
     padding: 10px;
@@ -109,7 +110,7 @@ p {
 /* addition of hero image on homepage */
 
 #hero-outer {
-    height: 1200px; 
+    height: 1200px;
     width: 100%;
 }
 
@@ -117,7 +118,7 @@ p {
 
 #hero-image {
     width: 100%;
-    height: 1200px; 
+    height: 1200px;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -150,10 +151,10 @@ iframe {
 /* addition of social media in footer and styling of footer */
 
 footer {
-     height: 100px;
-     width: 100%;
-     padding: 15px;
-     text-align: center;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
 }
 
 footer li {
@@ -169,7 +170,7 @@ footer li {
 }
 
 .social-media i {
-    text-decoration: none; 
+    text-decoration: none;
     margin: 1.1%;
     font-size: 2em;
     color: #000000;
@@ -195,11 +196,14 @@ footer li {
 /* styling of div elements containing text on events page */
 
 #events-fringe {
-     margin-top: 30px;
+    margin-top: 30px;
 }
 
-#events-fringe, #events-film, #events-book, #events-music {
-    color: white; 
+#events-fringe,
+#events-film,
+#events-book,
+#events-music {
+    color: white;
     font-size: 1.85em;
     margin-bottom: 50px;
     background-color: black;
@@ -209,12 +213,14 @@ footer li {
     padding: 10px;
 }
 
-#events-fringe, #events-book {
+#events-fringe,
+#events-book {
     margin-left: 10%;
     float: left;
 }
 
-#events-film, #events-music {
+#events-film,
+#events-music {
     margin-right: 10%;
     float: right;
 }
@@ -222,7 +228,10 @@ footer li {
 /* addition of hover effects of div elements on events page.
 Code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp */
 
-#events-fringe:hover, #events-film:hover, #events-book:hover, #events-music:hover {
+#events-fringe:hover,
+#events-film:hover,
+#events-book:hover,
+#events-music:hover {
     opacity: 1;
 }
 
@@ -230,10 +239,11 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 
 #eat-text {
     display: block;
-    padding: 20px; 
+    padding: 20px;
 }
 
-#eat-text>h2, #eat-text>p {
+#eat-text>h2,
+#eat-text>p {
     line-height: 30px;
     text-align: center;
     padding: 20px;
@@ -249,7 +259,8 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 
 /* styling of img elements on eat+drink page */
 
-#champagne-img, #oysters-img {
+#champagne-img,
+#oysters-img {
     height: auto;
     width: 50%;
     padding-bottom: 30px;
@@ -266,7 +277,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /* Addition of background image on travel adive page. 
  image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
 
- #edin-travel {
+#edin-travel {
     background: url('../images/edinburgh-travel.jpg') no-repeat center center;
     height: 1000px;
     width: 100%;
@@ -278,7 +289,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 /* styling of div element on travel page */
 
 #travel-container {
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 70%;
     padding-top: 20px;
 }
@@ -291,14 +302,14 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
     opacity: 0.85;
     width: 70%;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 40px;
 }
 
 #travel-text>h2 {
     text-decoration: underline;
     padding: 15px;
-} 
+}
 
 /* Addition of image background for form on newsletter page. 
 Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-1540372/ */
@@ -326,7 +337,7 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
 #newsletter-form {
     width: auto;
     height: auto;
-}  
+}
 
 #signup-button {
     height: 20px;
@@ -354,8 +365,6 @@ label {
     }
 }
 
-
-
 @media screen and (max-width: 1200px) {
 
     iframe {
@@ -371,7 +380,7 @@ label {
 
     #eat-container {
         width: auto;
-    } 
+    }
 
     #travel-container {
         width: auto;
@@ -389,7 +398,7 @@ label {
 
 @media screen and (max-width: 976px) {
 
-   h1 {
+    h1 {
         font-size: 1.6em;
     }
 
@@ -405,7 +414,10 @@ label {
         margin-right: 11%;
     }
 
-    #events-fringe, #events-film, #events-book, #events-music {
+    #events-fringe,
+    #events-film,
+    #events-book,
+    #events-music {
         width: 90%;
         margin: 10px;
     }
@@ -471,6 +483,11 @@ label {
         line-height: 30px;
     }
 
+    #travel-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .signup-button {
         margin-left: auto;
     }
@@ -487,11 +504,6 @@ label {
 }
 
 @media screen and (max-width: 650px) {
-
-    #travel-container {
-        width: 100%;
-        margin: 0 auto;
-    }
 
     #menu>li {
         margin-left: 5px;
@@ -511,11 +523,12 @@ label {
     }
 
     #travel-text {
+        padding: 10px;
         margin: 0 auto;
+        width: auto;
     }
 
 }
-
 
 @media screen and (max-width: 450px) {
 
@@ -533,7 +546,6 @@ label {
         font-size: 33px;
         line-height: 30px;
     }
-    
 
     iframe {
         width: 90%;
@@ -549,8 +561,8 @@ label {
         font-size: 1.1em;
         margin-left: 3px;
         margin-right: 3px;
-        letter-spacing: 0.2px; 
-    }   
+        letter-spacing: 0.2px;
+    }
 
     #intro-text {
         padding: 15px;
@@ -561,11 +573,11 @@ label {
         width: auto;
     }
 
-   .social-media h3 {
+    .social-media h3 {
         font-size: 2.1em;
         line-height: 30px;
         padding-top: 10px;
-    } 
+    }
 
     .social-media i {
         font-size: 1.5em;
@@ -582,13 +594,15 @@ label {
     #eat-text {
         padding: 3px;
     }
-    
-    #eat-text>h2, #eat-text>p {
+
+    #eat-text>h2,
+    #eat-text>p {
         line-height: 25px;
         padding: 3px;
     }
 
-    #champagne-img,  #oysters-img {
+    #champagne-img,
+    #oysters-img {
         width: 50%;
         height: auto;
 
@@ -606,16 +620,10 @@ label {
         margin-left: auto;
     }
 
-    #travel-text {
-        padding: 5px;
-        margin: 0 auto;
-        width: auto;
-    }
-
 }
 
-@media screen and (max-width: 352px) {
-    
+@media screen and (max-width: 358px) {
+
     h1 {
         font-size: 1.1em;
     }
@@ -625,7 +633,7 @@ label {
     }
 
     .social-media h3 {
-        font-size: 30px;
+        font-size: 29px;
     }
 
     p {
@@ -645,7 +653,7 @@ label {
 
     #menu>li {
         font-size: 0.8em;
-        letter-spacing: 0.1px; 
-    }  
+        letter-spacing: 0.1px;
+    }
 
 }
