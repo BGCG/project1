@@ -1,8 +1,8 @@
 # **Love Edinburgh** #
  
-Love Edinburgh is a tourist site for Edinburgh which offers information on key events, restaurants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of restaurant and events choices. Love Edinburgh provides the fundamental key events and best restaurants to visit in Edinburgh.
+Love Edinburgh is a tourist site for Edinburgh which offers information on key events, restaurants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the world with a wealth of restaurant and events choices. Love Edinburgh provides the key events and best restaurants to visit in Edinburgh.
  
-This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma.
+This project is built for the purpose of the milestone project 1 submission for Code Institute full stack software development diploma.
 
 ![Screenshot-of-intro-for-readme](assets/images/screenshots/intro-image-readme.png)
  
@@ -70,7 +70,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 **Homepage:**
  
-* The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
+* The home page has a decorative image of a view of Edinburgh skyline looking down on the Princes street (the main street in Edinburgh) with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
 * When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
  
 ![Screenshot-of-homepage](assets/images/screenshots/homepage.png)
@@ -92,7 +92,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 **Travel advice page:**
  
-* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane
+* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane.
 * The travel page also provides information on how to get around Edinburgh by bus.
  
 ![Screenshot-of-travel-adice](assets/images/screenshots/travel-page.png)
