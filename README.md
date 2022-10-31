@@ -139,7 +139,9 @@ On the eat+drink page I wanted to align the two images side by side as initially
  
 * The W3C HTML validation service was used and no errors were found.
  
-* Lighthouse report output showed an excellent accessibility score.
+* Lighthouse report output showed an excellent accessibility score. Below I have presentated a sreenshot from the homepage lighthouse report (as I am unaware how to perform audit on the whole website) but I performed the lighthouse audit on all pages scored and they all scored an accessibility score of 100%.
+
+![Screenshot-of-lighthouse-report](assets/images/screenshots/lighthouse-report.png)
  
 ### **Bugs** ###
  
