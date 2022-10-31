@@ -1,6 +1,6 @@
 # **Love Edinburgh** #
  
-Love Edinburgh is an Edinburgh tourist site which offers information on key events, restaurants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the world with a wealth of restaurant and events choices. Love Edinburgh provides the key events and best restaurants to visit in Edinburgh.
+Love Edinburgh is an Edinburgh tourist site which offers information on key events, restaurants and travel advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the world with a wealth of restaurant and events choices. Love Edinburgh provides the key events and best restaurants to visit in Edinburgh.
  
 This project is built for the purpose of the milestone project 1 submission for Code Institute full stack software development diploma.
 
@@ -155,6 +155,8 @@ This project is hosted using Github pages by executing the following steps;
 * Go to settings on the Github repository.
 * Click on pages.
 * Set branch to 'main'.
+
+Site can be found [here](https://bgcg.github.io/project1/).
  
 ## Technologies used ##
  
