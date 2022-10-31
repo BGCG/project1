@@ -612,7 +612,15 @@ label {
 @media screen and (max-width: 358px) {
 
     h1 {
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+
+    /* Below code was taken from inspiration from the follow post - https://stackoverflow.com/questions/14390979/how-do-i-keep-a-nav-bar-at-the-top-of-the-page#:~:text=Use%20position%20absolute%20and%20set,the%20top%20of%20the%20browser. */
+
+    #menu {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     h2 {
