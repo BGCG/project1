@@ -28,7 +28,7 @@ The website HTML code includes aria-labels for social media links and alt labels
  
 ### **Communication** ###
 
-The website is presented with bold soft text for the headers to distinguish from paragraph elements. Usage of contrasting white text against black background or dark text against white or gray background to provide optimal contrast for readability. 
+The website is presented with higher font-weight for the headers to distinguish from paragraph elements with lower font-weights. Usage of contrasting white text against black background or dark text against white or gray background to provide optimal contrast for readability. 
  
 ### **Current user goals** ###
  
@@ -57,7 +57,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
 ## Features ##
  
 **Logo:**
-* Each page contains a 'Love Edinburgh' logo with a clickable link that takes you back to the home page if you travel to a different page.
+* Each page contains a 'Love Edinburgh' logo on the top left-hand corner of the page with a clickable link that takes you back to the home page if you travel to a different page.
  
 ![Screenshot-of-logo](assets/images/screenshots/logo-love-edinburgh.jpg)
  
