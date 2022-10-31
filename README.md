@@ -27,6 +27,7 @@ This website is built with responsive design in mind to effectively respond to t
 The website HTML code includes aria-labels for social media links and alt labels for HTML images. All images inputed using CSS (as are the images on the Home, Events and Signup page) are for decorative purposes only.
  
 ### **Communication** ###
+
 The website is presented with bold soft text for the headers to distinguish from paragraph elements. Usage of contrasting white text against black background or dark text against white or gray background to provide optimal contrast for readability. 
  
 ### **Current user goals** ###
@@ -47,7 +48,7 @@ The site has a dark and amber color theme to represent the often foggy weather o
  
 ### **Imagery** ###
  
-The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the homepage) or from Princes street (travel advice page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (events page) and Edinburgh music festivals (newsletter), as well as the kind of restaurants or bar experiences in Edinburgh (eat+drink page).
+The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the homepage) or from Princes street (travel page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (events page) and Edinburgh music festivals (signup page), as well as the kind of restaurants or bar experiences in Edinburgh (eat+drink page).
  
 ### **Typography** ###
  
@@ -78,7 +79,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
 **Events page:**
  
 * The events page lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh.
-* The idea is that this page would have updates on Events in and around Edinburgh where users can revisit.
+* The idea is that this page would have updates on events in and around Edinburgh where users can revisit.
  
 ![Screenshot-of-events](assets/images/screenshots/events-page.png)
  
@@ -139,7 +140,7 @@ On the eat+drink page I wanted to align the two images side by side as initially
  
 * The W3C HTML validation service was used and no errors were found.
  
-* Lighthouse report output showed an excellent accessibility score. Below I have presentated a sreenshot from the homepage lighthouse report (as I am unaware how to perform audit on the whole website) but I performed the lighthouse audit on all pages scored and they all scored an accessibility score of 100%.
+* Lighthouse report output showed an excellent accessibility score. Below I have presentated a sreenshot from the homepage lighthouse report (as I am unaware how to perform audit on the whole website). I performed the lighthouse audit on all pages scored and they all scored an accessibility score of 100%.
 
 ![Screenshot-of-lighthouse-report](assets/images/screenshots/lighthouse-report.png)
  
