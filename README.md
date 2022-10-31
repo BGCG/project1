@@ -48,7 +48,7 @@ The site has a dark and amber color theme to represent the often foggy weather o
  
 ### **Imagery** ###
  
-The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the homepage) or from Princes street (travel page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (events page) and Edinburgh music festivals (signup page), as well as the kind of restaurants or bar experiences in Edinburgh (eat+drink page).
+The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the Homepage) or from Princes street (Travel page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (Events page) and Edinburgh music festivals (Signup page), as well as the kind of restaurants or bar experiences in Edinburgh (eat+drink page).
  
 ### **Typography** ###
  
@@ -70,7 +70,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 **Homepage:**
  
-* The home page has a decorative image of a view of Edinburgh skyline looking down on the Princes street (the main street in Edinburgh) with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
+* The Home page has a decorative image of a view of Edinburgh skyline looking down on the Princes street (the main street in Edinburgh) with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
 * When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
  
 ![Screenshot-of-homepage](assets/images/screenshots/homepage.png)
@@ -78,28 +78,28 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 **Events page:**
  
-* The events page lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh.
+* The Events page lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh.
 * The idea is that this page would have updates on events in and around Edinburgh where users can revisit.
  
 ![Screenshot-of-events](assets/images/screenshots/events-page.png)
  
 **Eat+Drink page:**
  
-* Images of the type of restaurant experience you may have in Edinburgh.
-* The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh restaurants that are popular spots in Edinburgh.
+* The Eat+Drink page contains images of the type of restaurant experience you may have in Edinburgh.
+* The Eat+Drink page offering information on some of the best Edinburgh eats. These are real Edinburgh restaurants that are popular spots in Edinburgh.
  
 ![Screenshot-of-eat-drink](assets/images/screenshots/eat-drink-page.png)
  
 **Travel advice page:**
  
-* This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane.
+* The following page is Travel advice page which offers general advice on how to get to Edinburgh via plane.
 * The travel page also provides information on how to get around Edinburgh by bus.
  
 ![Screenshot-of-travel-adice](assets/images/screenshots/travel-page.png)
 
 **Signup page:**
 
-* The last page is a newsletter sign up page where users can sign up to a fictional newsletter to receive live updates on events and restaurant offers in Edinburgh.
+* The last page is a Signup page where users can sign up to a fictional newsletter to receive live updates on events and restaurant offers in Edinburgh.
 * As this newsletter is fictional, submission of details will take the user to the Code Institute formdump page.
 
 ![Screenshot-of-travel-advice](assets/images/screenshots/signup-page.png)
@@ -120,9 +120,9 @@ My main areas which required much optimisation and testing was when coding the r
 
 On smaller screen sizes, the main changes I have made is to decrease the line spacing of p elements and make the div elements cover the background images rather than have a small margin in larger screens. In the responsive design for smartphones and iPads, the form element has the label on top of the input boxes rather than beside. All these changes are to enhance the readability of the text on smaller devices.
  
-Previously I had headers for the events and eat+drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively, but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS hierarchy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoration: underline}`.
+Previously I had headers for the events and Eat+Drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively, but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS hierarchy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoration: underline}`.
  
-On the eat+drink page I wanted to align the two images side by side as initially they were in a column when using `display:inline-block`. I wrapped the images in a container with their own separate div's insides and used `display: flex;` on the container which gave the desired effect. I found this [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media very helpful in troubleshooting this issue.
+On the Eat+Drink page I wanted to align the two images side by side as initially they were in a column when using `display:inline-block`. I wrapped the images in a container with their own separate div's insides and used `display: flex;` on the container which gave the desired effect. I found this [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media very helpful in troubleshooting this issue.
  
 ### **Key testing points** ###
  
@@ -193,7 +193,7 @@ When aligning the logo and navigation bar I found the reply from [Adam Grant](ht
 
 The [video](https://www.youtube.com/watch?v=JtR2XKFj9tQ) by Cem Eygi Media was helpful in troubleshooting the image positioning on the eat and drink page as discussed in the testing section.
 
-For the navigation bar troubleshooting where I fixed the position of the nav bar eventually so it would 'fly around' on smaller screens I took inpiration from the following [stack overflow post](https://stackoverflow.com/questions/14390979/how-do-i-keep-a-nav-bar-at-the-top-of-the-page#:~:text=Use%20position%20absolute%20and%20set,the%20top%20of%20the%20browser). I am incredibly grateful to those who contributed to this post as this was an ongoing issue!
+For the navigation bar troubleshooting where I fixed the position of the nav bar eventually so it wouldn't 'fly around' on smaller screens I took inpiration from the reply from DINA TAKLIT in the following [stack overflow post](https://stackoverflow.com/questions/14390979/how-do-i-keep-a-nav-bar-at-the-top-of-the-page#:~:text=Use%20position%20absolute%20and%20set,the%20top%20of%20the%20browser). 
  
 ### **Media** ###
  
