@@ -94,9 +94,10 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 ![Screenshot-of-travel-adice](assets/images/screenshots/travel-page.png)
 
-**Signup page**
+**Signup page:**
 
-*The last page is a newsletter sign up page where users can sign up to a fictional newsletter to receive live updates on events and restaurant offers in Edinburgh.
+* The last page is a newsletter sign up page where users can sign up to a fictional newsletter to receive live updates on events and restaurant offers in Edinburgh.
+* As this newsletter is fictional, submission of details will take the user to the Code Institute formdump page.
 
 ![Screenshot-of-travel-advice](assets/images/screenshots/signup-page.png)
  
