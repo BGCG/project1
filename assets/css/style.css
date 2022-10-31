@@ -278,7 +278,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
  image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
 
 #edin-travel {
-    background: url('../images/edinburgh-travel.jpg') no-repeat center center;
+    background: url('../images/concert.jpg') no-repeat center center;
     height: 1000px;
     width: 100%;
     padding-top: 20px;

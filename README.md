@@ -56,50 +56,50 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
 **Logo:**
 * Each page contains a 'Love Edinburgh' logo with a clickable link that takes you back to the home page if you travel to a different page.
  
-![Screenshot-of-logo](assets/images/logo-love-edinburgh.jpg)
+![Screenshot-of-logo](assets/images/screenshots/logo-love-edinburgh.jpg)
  
 **Navigation menu:**
  
 * Each page contains a navigation menu in an intuitive place (top right hand corner of the page) and when you hover over the links they turn from black to gray.
 * In the navigation bar, the active page will also be underlined so the user knows which page they are on.
  
-![Screenshot-of-navigation](assets/images/navbar.png)
+![Screenshot-of-navigation](assets/images/screenshots/navbar.png)
  
 **Homepage:**
  
 * The home page with a decorative image of a view of Edinburgh skyline looking down on the Princes street with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
 * When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
  
-![Screenshot-of-homepage](assets/images/homepage.png)
-![Screenshot-of-welcome-video](assets/images/video.png)
+![Screenshot-of-homepage](assets/images/screenshots/homepage.png)
+![Screenshot-of-welcome-video](assets/images/screenshots/video.png)
  
 **Events page:**
  
 * The events page lists the key events that Edinburgh hosts such as the Edinburgh Fringe festival, the Edinburgh International Film Festival, the Edinburgh International Book Festival and the various music festivals in and around Edinburgh.
 * The idea is that this page would have updates on Events in and around Edinburgh where users can revisit.
  
-![Screenshot-of-events](assets/images/events-page.png)
+![Screenshot-of-events](assets/images/screenshots/events-page.png)
  
 **Eat+Drink page:**
  
 * Images of the type of restaurant experience you may have in Edinburgh.
 * The next page is an eat+drink page offering information on some of the best Edinburgh eats. These are real Edinburgh restaurants that are popular spots in Edinburgh.
  
-![Screenshot-of-eat-drink](assets/images/eat-drink-page.png)
+![Screenshot-of-eat-drink](assets/images/screenshots/eat-drink-page.png)
  
 **Travel advice page:**
  
 * This is followed by a travel advice page which offers general advice on how to get to Edinburgh via plane
 * The travel page also provides information on how to get around Edinburgh by bus.
  
-![Screenshot-of-travel-adice](assets/images/travel-page.png)
+![Screenshot-of-travel-adice](assets/images/screenshots/travel-page.png)
  
 **Social media links:**
  
 * Social media links are provided at the footer of each page for a fictional social media account 'Love Edinburgh' which provides regular live updates of events and offers in Edinburgh.
 * Additionally, the social media links adds a community connection to other tourists and locals in Edinburgh.
  
-![Screenshot-of-social-media](assets/images/social-media-links.png)
+![Screenshot-of-social-media](assets/images/screenshots/social-media-links.png)
  
  
 ## Testing ##
