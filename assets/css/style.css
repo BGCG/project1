@@ -207,7 +207,6 @@ footer li {
     font-size: 1.85em;
     margin-bottom: 50px;
     background-color: black;
-    opacity: 0.85;
     width: 50%;
     text-align: center;
     padding: 10px;
@@ -223,16 +222,6 @@ footer li {
 #events-music {
     margin-right: 10%;
     float: right;
-}
-
-/* addition of hover effects of div elements on events page.
-Code taken from inspiration from https://www.w3schools.com/css/css_image_transparency.asp */
-
-#events-fringe:hover,
-#events-film:hover,
-#events-book:hover,
-#events-music:hover {
-    opacity: 1;
 }
 
 /* styling of text of eat+drink page */
@@ -278,7 +267,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
  image from pexels.com - https://www.pexels.com/photo/three-person-crossing-streets-2242170/ */
 
 #edin-travel {
-    background: url('../images/concert.jpg') no-repeat center center;
+    background: url('../images/edinburgh-travel.jpg') no-repeat center center;
     height: 1000px;
     width: 100%;
     padding-top: 20px;
@@ -298,8 +287,7 @@ Code taken from inspiration from https://www.w3schools.com/css/css_image_transpa
 
 #travel-text {
     color: white;
-    background-color: black;
-    opacity: 0.85;
+    background-color: rgb(23, 16, 16);
     width: 70%;
     text-align: center;
     margin: 0 auto;
@@ -317,7 +305,7 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
 #form-image {
     width: 100%;
     height: 800px;
-    background: url('../images/newsletter-signup.jpg') no-repeat center center;
+    background: url('../images/concert.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -343,6 +331,8 @@ Image from pexels.com - https://www.pexels.com/photo/photo-of-live-concert-15403
     height: 20px;
     width: 50px;
 }
+
+/* Setting display to inline-block below was taken from advice from the following stack overflow post - https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html */
 
 label {
     display: inline-block;
