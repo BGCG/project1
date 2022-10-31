@@ -2,7 +2,7 @@
  
 Love Edinburgh is a tourist site for Edinburgh which offers information on key events, restaurants and travels advice for visitors to Edinburgh. Edinburgh is a popular tourist destination for people around the word with a wealth of restaurant and events choices. Love Edinburgh provides the fundamental key events and best restaurants to visit in Edinburgh.
  
-This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma. The project is still under development.
+This project is built for the purpose of the milestone project 1 submission for code institute full stack software development diploma.
  
 Site can be found [here](https://bgcg.github.io/project1/).
  
