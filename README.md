@@ -20,11 +20,11 @@ The site is directed to those that would like, are about to or are new to Edinbu
  
 ### **Responsive Design** ###
  
-This website is built with responsive design in mind to effectively respond to the user's choice of device such as smartphone, tablet, laptop and larger desktop screen sizes using conditional media queries. The website is targeted to a number of device sizes such as iPhone SE, iPad mini and Galaxy Fold in addition to laptop and desktop viewing.
+This website is built with responsive design in mind to effectively respond to the user's choice of device such as smartphone, tablet, laptop and larger desktop screen sizes, by use of conditional media queries. The website is targeted to a number of device sizes such as iPhone SE, iPad mini and Galaxy Fold in addition to laptop and desktop viewing.
  
 ### **Accessibility** ###
  
-The website HTML code includes aria-labels for social media links and alt labels for HTML images. All images inputed using CSS (as are the images on the Home, Events and Signup page) are for decorative purposes only.
+The website HTML code includes aria-labels for social media links and alt labels for HTML images. All images inputted using CSS (as are the images on the Home, Events and Signup page) are for decorative purposes only.
  
 ### **Communication** ###
 
@@ -48,7 +48,7 @@ The site has a dark and amber color theme to represent the often foggy weather o
  
 ### **Imagery** ###
  
-The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the Homepage) or from Princes street (Travel page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (Events page) and Edinburgh music festivals (Signup page), as well as the kind of restaurants or bar experiences in Edinburgh (Eat+Drink page).
+The imagery used was to reflect the beautiful scenery scene from the Edinburgh skyline (as with the Homepage) or from the main street in Edinburgh, Princes street (Travel page). The site also contains imagery reminiscent of those you would see at the Edinburgh Fringe festival (Events page) and Edinburgh music festivals (Signup page), as well as the kind of restaurants or bar experiences in Edinburgh (Eat+Drink page).
  
 ### **Typography** ###
  
@@ -70,8 +70,8 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 **Homepage:**
  
-* The Home page has a decorative image of a view of Edinburgh skyline looking down on the Princes street (the main street in Edinburgh) with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
-* When you scroll down the page there is a welcome video of Edinburgh from youtube that gives a taster of what Edinburgh can offer.
+* The Home page has a decorative image of a view of Edinburgh skyline looking down on the Princes street with text overlayed stating reasons to visit Edinburgh and an introduction to what the site can offer.
+* When you scroll down the page there is a welcome video of Edinburgh from youtube.com that gives a taster of what Edinburgh can offer.
  
 ![Screenshot-of-homepage](assets/images/screenshots/homepage.png)
 ![Screenshot-of-welcome-video](assets/images/screenshots/video.png)
@@ -118,7 +118,7 @@ Dongle font from Google Fonts was used throughout the website which is a sans se
  
 My main areas which required much optimisation and testing was when coding the responsive design queries - especially to code the navigation bar so it would still be readable on small screens. I found on smaller screen sizes the navigation bar was distorted and at certain screen widths disappeared behind other content at small screens sizes (especially for iPhone SE and Galaxy Fold devices). I found wrapping the logo and navigation bar in a container and setting `display` to `inline-block` helped. Then I made the logo and menu their own separate divs inside the nav-logo container. Then I fixed the position of the menu using `top:0;` `left:0` and `position: absolute;`. I would have liked to code a dropdown navigation bar, however I struggled due to time constraints but will definitely consider this option in future projects. 
 
-On smaller screen sizes, the main changes I have made is to decrease the line spacing of p elements and make the div elements cover the background images rather than have a small margin in larger screens. In the responsive design for smartphones and iPads, the form element has the label on top of the input boxes rather than beside. All these changes are to enhance the readability of the text on smaller devices. I tested the responsive code by selecting each device display in the Google Dev tools, selecting 100% zoom and ensuring readability and conformance of elements in the website.
+On smaller screen sizes, the main changes I have made is to decrease the line spacing of p elements and make the div elements cover the background images rather than have a small margin in larger screens. In the responsive design for smartphones and iPads, the form element has the label on top of the input boxes rather than beside. All these changes are to enhance the readability of the text on smaller devices. I tested the responsive code by selecting each device display in the Google Dev tools to ensure readability and conformance of elements in the website.
  
 Previously I had headers for the events and Eat+Drink page, 'Events in Edinburgh' and 'Edinburgh food and drink', respectively, but I found them difficult to control in the responsive design process - often being misplaced on smaller screens and the start of the page looking a bit 'text heavy' without the extra space that you have on larger screens. I opted instead to get rid of the headings and instead underline the active pages in the navigation bar so the user knows which page they are viewing. I used the `text-decoration:underline;` as for an unknown reason the border-bottom the line was placed awkwardly low in respect to the navigation bar. Although I have no stylistic control when using the `text-decoration: underline;` I thought this was the best option in this circumstance. At first it didn't work when I wrote `.active {text-decoration: underline}`. Then I realised due to the CSS hierarchy I would have to first target the menu id selector followed by the active class selector - `#menu .active{text-decoration: underline}`.
  
@@ -148,7 +148,7 @@ On the Eat+Drink page I wanted to align the two images side by side as initially
  
 ### **Bugs** ###
  
-* All bugs detected have been fixed. There was a couple of occassions where images weren't showing up on the website where I found due to the wrong directory or file name being inputed into `src:` or `background:url()` (classsic mistake!). All other bug resolutions are described in the testing section of this README. 
+* All bugs detected have been fixed. There were a couple of occasions where images weren't showing up on the website due to the wrong directory or file name being inputted into src: or background:url() (classic mistake!). All other bug resolutions are described in the testing section of this README.
  
 ## Deployment ##
  
@@ -169,7 +169,7 @@ Site can be found [here](https://bgcg.github.io/project1/).
  
 ### **Programs, libraries and frameworks used** ###
  
-* GitHub - The internet hosting site github.com to host this website
+* GitHub - The internet hosting service github.com to host this website
 * Gitpod - Gitpod developer platform was used to code my website and then was pushed to github
 * Google fonts - Dongle font was used throughout this site which was downloaded from Google Fonts
 * fontawesome - The facebook, Instagram and Twitter icons are from fontawesome.com
